@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.Mis_vis {
+    background-image: url('../../../public/images/CertiImg/MisVis.png');
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Mis_vis h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.spanMisvis {
+margin-left: 30% !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .Mis_vis h1 {
+        font-size: 40px;
+        font-weight: 600;
+        color: #ffffff;
+    } 
+  }
+.Img_text {
+    background-image: url('../../../public/images/CertiImg/image\ 7\ \(1\).png');
+    
+}
+.Img_text h2 {
+    font-size: 25px;
+}
+.Img_text p {
+    font-size: 15px;
+}

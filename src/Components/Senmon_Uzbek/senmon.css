@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header_senmon{
+    background-image: url("../../../public/images/Senmon/higher_education_thumbnail_p41041416\ 1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.header_senmon .h1{
+    padding-top: 20%;
+    font-size: 50px;
+}
+
+.header_senmon h1{
+    font-size: 50px;
+    margin-top:30px;
+}
+.Senmon_japan{
+    background-image: url("../../../public/images/Senmon/Senmon.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.Senmon_japan p{
+    margin-top: 20px;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.senmon_h1 {
+  padding-top: 8%;  
+}
+
+.pencil{
+    background-color: #007500b7;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+.pencil_img{
+    margin: 25%;
+   
+}
+
+.pencil_card{
+    width: 30% !important;
+    margin: 0 auto;
+    padding-top: 8%;
+    padding-bottom: 7%;
+    text-align: center;
+
+}
+
+.pencil:hover{
+    box-shadow: 0 0 12px #007500b7;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.Profissional{
+    background-color:#1a971a ;
+    width: 100%;
+    height: 100%;
+  
+}
+
+.Institutions{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+
+.Institutions h1{
+    font-size: 55px;
+}
+
+.Institutions h2{
+    font-size: 30px;
+}
+
+.Process{
+    margin: 0 auto;
+    background-image: url("../../../public/images/Senmon/profess.png");
+    width: 100%;
+    height: 100%;
+}
+
+.Process h1{
+    padding-top: 6%;
+    
+}
+.Process .row .process_card{
+    margin: 0 auto;
+}
+
+.Process h2{
+    color: red;
+    font-size: 70px;
+    padding-bottom: 6%;
+}
+
+.Entrol{
+    background-image: url("../../../public/images/Senmon/Senmon2.png");
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 6%;
+    margin-bottom: 7%;
+}
+
+.entrol_bg{
+    background-color: rgba(0, 128, 0, 0.669);
+    width: 100%;
+    height: 100%;
+}
+
+.entrol_img{
+    margin: 0 auto;
+    padding-top:30px;
+    padding-bottom:30px ;    
+    width: 60%;
+}
+
+.entrol_bg h1{
+    font-size: 64px;
+    text-align: center;
+   
+}
+
+.entroll_button{
+    width: 25%;
+    padding: 10px;
+    margin-left: 35%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+

@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header_intern_viza{
+    background-image: url("../../../public/images/Intern/intern1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.header_intern_viza .h1{
+    padding-top: 20%;
+    font-size: 50px;
+}
+
+.header_intern_viza h1{
+    font-size: 50px;
+    margin-top:30px;
+}
+.intern_viza_uzbek{
+    background-image: url("../../../public/images/work_viza/work2.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intern_viza_uzbek p{
+    margin-top: 20px;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.senmon_h1 {
+  padding-top: 8%;  
+}
+
+.pencil{
+    background-color: #007500b7;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.pencil_img{
+    margin: 25%;
+   
+}
+
+.pencil_card{
+    width: 30% !important;
+    margin: 0 auto;
+    padding-top: 8%;
+    padding-bottom: 7%;
+    text-align: center;
+
+}
+
+.Profissional{
+    background-color:#007500b7 ;
+    width: 100%;
+    height: 100%;
+  
+}
+
+.Institutions{
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    /* margin: 0 auto; */
+    padding-bottom: 10%;
+}
+
+.Institutions h1{
+    font-size: 55px;
+}
+
+.Institutions h2{
+    font-size: 30px;
+}
+
+.Process_work_viza{
+    margin: 0 auto;
+    background-image: url("../../../public/images/Senmon/profess.png");
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.Process_work_viza h1{
+    padding-top: 6%;
+    
+}
+.Process_work_viza .row .process_card{
+    margin: 0 auto;
+}
+
+.Process_work_viza h2{
+    color: red;
+    font-size: 70px;
+    padding-bottom: 6%;
+}
+.container h1{
+    color: green;
+}
+.process_card:hover  h2, h5 {
+    color: green;
+}
+
+.process_card:hover h1{
+    color: orange;
+}
+
+
+.process_card:hover{
+    transition: 0.5s;
+    border: 2px solid green;
+    border-radius: 10px;
+    box-shadow: 0 0 4px green;
+}
+
+.Entrol_intern_viza{
+    background-image: url("../../../public/images/Intern/intern2.png");
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 6%;
+    margin-bottom: 7%;
+}
+
+.entrol_bg{
+    background-color: rgba(0, 128, 0, 0.669);
+    width: 100%;
+    height: 100%;
+}
+
+.entrol_img{
+    margin: 0 auto;
+    padding-top:30px;
+    padding-bottom:30px ;    
+    width: 60%;
+}
+
+.entrol_bg h1{
+    font-size: 64px;
+    text-align: center;
+   
+}
+
+.entroll_button{
+    width: 25%;
+    padding: 10px;
+    margin-left: 35%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: green;
+    transition: 0.5s;
+}
+
+.entroll_button:hover{
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+
+}
