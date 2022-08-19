@@ -18,8 +18,8 @@ export default function Contact_page() {
   return (
     <div className="contact__page">
       <div className="contact__header h-auto" data-aos="zoom-in">
-        <div className="contact__header__text">
-          <p className="text-center text-success fs-3 pt-4">Contact Us</p>
+        <div className="contact__header__text contact_title">
+          <p className="text-center text-success fs-3 pt-4 ">Contact Us</p>
           <h1 className="text-center py-2">We’re here to help!</h1>
         </div>
         <div className="container">
@@ -41,8 +41,6 @@ export default function Contact_page() {
         </div>
         </div>
       </div>
-     <Get_Inputs/>
-
         <div className='container my-3' data-aos="flip-up"  >
         <iframe
                     class="map"

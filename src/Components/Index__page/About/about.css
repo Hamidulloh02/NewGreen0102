@@ -8,9 +8,13 @@
     justify-content: center;
     align-items: center;
 }
+.about_dlex img{
+    width: 100%;
+}
 .margn_top{
     margin-bottom: 50px;
     margin-top: 50px;
+    color: black;
 }
 .bottom_img{
     width: 5%;

@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .offerbody{
     background-image: url("./back-offer.png");
     background-repeat: no-repeat;

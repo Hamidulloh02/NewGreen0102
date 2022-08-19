@@ -6,7 +6,9 @@
     background-size: cover;
     background-attachment: fixed;
 }
-
+.contact_title{
+   padding-top: 10%;
+}
 .contact__header__card{
     border-radius: 25px !important;
     transition: 0.5s;

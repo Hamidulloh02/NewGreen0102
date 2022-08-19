@@ -1,0 +1,16 @@
+[
+    {
+        "text1": "Foundation",
+        "img1": "./images/Unverstet/foundation.png",
+        "alt1": "foundation",
+        "text2": "Undergraduate",
+        "img2": "./images/Unverstet/under.png",
+        "alt2": "start",
+        "text3": "Postgraduate",
+        "img3": "./images/Unverstet/post.png",
+        "alt3": "postgraduate",
+        "text4": "PhD",
+        "img4": "./images/Unverstet/phd.png",
+        "alt4": "phd"
+    }
+]

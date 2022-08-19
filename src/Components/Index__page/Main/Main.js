@@ -25,7 +25,10 @@ function Main() {
                         </div>
                 </div>
                 <div className=' col-lg-6 col-md-6 col-sm-12 p-3'>
-                     <img className='mainphoto' src='./images/Indexpage-img/Main-img.png'/>
+                  <div className='mainpage001'>
+                     <img className='mainphoto' src='./images/Indexpage-img/Main-img.png'/>                                        
+                  </div>
+
                 </div>
             </div>
         </div>

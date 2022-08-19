@@ -6,20 +6,22 @@
     z-index: 100;
     width: 100%;
 }
-.nav-item{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-}
 .minnavbar{
     border-radius: 10px;
     /* margin-top: 100px; */
 }
+.topnavbar{
+    /* background-color: #FFF;
+    padding: 10px 0;
+    opacity: 40%;
+}
 .nav_link{
     text-decoration: none;
     /* margin: 0 8px; */
+}
+.a_link{
+    text-decoration: none;
+    color: black;
 }
 @media(min-width:991px){
     .nav_link{
@@ -29,6 +31,9 @@
 
 .nav_navbar:hover{
  color: green!important;
+}
+.sellectlang{
+    border-radius: 5px;
 }
 .navmenu{
     background-color: black;
@@ -44,15 +49,17 @@
     border-radius: 5px;
     z-index: 1000;
 }
-.menunav:hover .drop3{
-    display: flex;
-    flex-direction: column;
+.dropicon{
+    font-size: 16px;
 }
-.menunav:hover .dropicon{
+.menunav:hover .drop3{
+    display: block;
+}
+/* .menunav:hover .dropicon{
     transform: rotateX(-180deg);
     transition: 1s;
     
-}
+} */
 @media(max-width:350px){
     .main-logo{
         width: 180px;
@@ -60,10 +67,16 @@
 }
 .top_contact{
     display: flex;
-    justify-content: space-around;
+    justify-content:end;
+    align-items: center;
+    padding: 0px 20px;
     font-weight: 500;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+.upper{
+    z-index: 1000;
+    color: black;
 }
 .top-nav-icon{
     width: 25px;

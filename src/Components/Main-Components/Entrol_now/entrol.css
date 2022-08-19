@@ -1,0 +1,97 @@
+
+.Entrol{
+   
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 10%;
+    margin-bottom: 7%;
+}
+
+
+.entrol_bg{
+    background-color: rgba(0, 128, 0, 0.669);
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    width: 70%;
+    margin:10%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10% auto;
+    transition: 0.2s;
+}
+
+.card:hover img{
+    transform: scale(1.1);
+    transition: 0.3s
+}
+.entrol_img img{
+    border-radius: 20px;
+}
+
+
+.entrol_h1 {
+    font-size: 64px;
+    margin-left: 20%;
+   
+}
+
+.entroll_button{
+    width: 25%;
+    padding: 10px;
+    margin-left: 20%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    border: none;
+
+
+}
+
+.entroll_button:hover{
+    background-color: green;
+    color: white;
+    transition: 0.3s;
+    border-radius: 15px;
+    transform: scale(1.1);
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.38);
+    border: none;
+}
+@media only screen and (max-width:998px){
+    .entrol_img{
+        width: 100%;
+    }
+    
+    .card{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width:769px){
+    .entrol_img{
+        width: 80%;
+    }
+    
+    .entroll_button{
+        width: 50%;
+        margin-left: 20%;
+    }
+    .card{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:440px){
+    .margin_entroll .h1_entrol{
+        font-size: 40px;
+    }
+    .entrol_img{
+        width: 70%;
+    }
+}

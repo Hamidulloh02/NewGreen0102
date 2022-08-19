@@ -1,0 +1,10 @@
+[
+    {
+        "year1":"Elementary ",
+         "year2":"Middle",
+         "year3":"Hight  ",
+         "img1":"./images/School/elementary.png",
+          "img2":"./images/School/middle.png",
+         "img3":"./images/School/hight.png"
+    }
+]

@@ -1,0 +1,43 @@
+
+.Perfect_servis{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+}
+
+.Perfect_servis h1{
+    padding-top: 10%;
+    margin-bottom: 8%;
+    color: green;
+}
+
+.Perfect_servis p{
+    font-size: 20px;
+    margin-bottom: 23%;
+}
+.perfect_card{
+    border: 2px solid transparent;
+    padding-top: 10%;
+    padding-bottom:10%;
+}
+.perfect_card:hover{
+   transition: 0.5s;
+   transform: scale(1.05) ;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.567);
+}
+
+.perfect_card:hover h1{
+   transition: 0.3s;
+    color: red;
+}
+
+.perfect_card p {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}

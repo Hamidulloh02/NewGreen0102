@@ -1,0 +1,48 @@
+.Text_content{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.text{
+    width: 50% !important;
+    text-align: center;
+}
+.Text_content p{
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 17px;
+    line-height: 35px;  
+    align-items: center;
+    vertical-align: center;
+    padding-bottom: 15% !important;
+}
+
+
+.text_h1{
+    padding-top: 15%;
+    font-size: 40px;
+    padding-bottom: 5%;
+}
+@media only screen and (max-width:1200px){
+    .text{
+        width: 60% !important;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .text{
+        width: 80% !important;
+    }
+
+    .Text_content p{
+        font-size: 13px;
+    }
+
+    .text_h1{
+        font-size: 35px;
+    }
+}
+

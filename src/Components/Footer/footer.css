@@ -129,6 +129,14 @@ ul{
         width: 90%;
     }
 }
+.footertitle{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+ul li{
+    font-size: 17px;
+}
 /* map style */
 .map{
     width: 100%;

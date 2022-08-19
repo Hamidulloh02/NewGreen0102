@@ -33,7 +33,7 @@ export default function about_carusel() {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="https://mift.uz/uploads/news/d3c81b3827b8eedaa6cc3fa5db5ba6c1.jpg"
+              src="http://www.naokitakizawa.com/takizawapw/wp-content/uploads/2016/06/case_mv_011.jpg"
               class="d-block w-100"
               alt="..."
             />
@@ -46,7 +46,7 @@ export default function about_carusel() {
           </div>
           <div class="carousel-item">
             <img
-              src="http://www.naokitakizawa.com/takizawapw/wp-content/uploads/2016/06/case_mv_011.jpg"
+              src="https://mift.uz/uploads/news/d3c81b3827b8eedaa6cc3fa5db5ba6c1.jpg"
               class="d-block w-100"
               alt="..."
             />
