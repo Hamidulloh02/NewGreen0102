@@ -17,7 +17,12 @@
     height: 100%;
 }
 
-.card{
+img{
+    transition: 0.3s !important;
+}
+
+.card_1{
+  
     width: 70%;
     margin:10%;
     border-radius: 20px;
@@ -26,7 +31,7 @@
     transition: 0.2s;
 }
 
-.card:hover img{
+.card_1:hover img{
     transform: scale(1.1);
     transition: 0.3s
 }
@@ -42,21 +47,24 @@
 }
 
 .entroll_button{
-    width: 25%;
-    padding: 10px;
+    width: 33%;
+    padding: 10px ;
     margin-left: 20%;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-bottom: 30px;
     transition: 0.3s;
     border: none;
-
+    color: green;
+    font-size: 24px;
+    font-weight: 700;
+    transition: 0.5s !important;
 
 }
 
 .entroll_button:hover{
     background-color: green;
     color: white;
-    transition: 0.3s;
+    transition: 0.5s;
     border-radius: 15px;
     transform: scale(1.1);
     border: 2px solid transparent;
@@ -68,7 +76,7 @@
         width: 100%;
     }
     
-    .card{
+    .card_1{
         width: 65%;
     }
 }
@@ -82,7 +90,7 @@
         width: 50%;
         margin-left: 20%;
     }
-    .card{
+    .card_1{
         width: 80%;
     }
 }

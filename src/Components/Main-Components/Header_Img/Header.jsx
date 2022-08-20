@@ -1,9 +1,17 @@
 import React,{useState ,useEffect} from 'react';
 import './header.css'
+import AOS from 'aos'
 const Header = (props) => {
 const [propstata, setpropsdata] = useState([])
 useEffect(() => {
  setpropsdata(props.data[0])
+
+ AOS.init({
+    offset: 200,
+    duration: 600,
+    easing: 'ease-in-sine',
+    delay: 100,
+  });
 },[])
     return (
     

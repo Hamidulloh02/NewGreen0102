@@ -1,13 +1,14 @@
 .Header_img{
+    /* margin-top: 10%; */
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-attachment: fixed;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
 }
 
 .Header_img .h1{
-    padding-top: 13%;
+    padding-top: 23%;
     font-size: 64px;
    
 }

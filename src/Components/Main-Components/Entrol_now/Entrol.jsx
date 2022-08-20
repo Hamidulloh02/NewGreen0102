@@ -27,8 +27,8 @@ const Entrol = (props) => {
                                 <button className='entroll_button mt-5'>{propstata.button}</button>
                             </div>
                             <div className='col-lg-6 col-md-12 col-sm-12  ' data-aos="fade-left">
-                               <div className="card">
-                                <img src={propstata.card_img} alt="senmon" />
+                               <div className="card_1">
+                                <img className='w-100' src={propstata.card_img} alt="senmon" />
                                </div>
                             </div>
                         </div>

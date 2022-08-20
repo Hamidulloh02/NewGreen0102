@@ -10,7 +10,7 @@ import Contact_page from "./Components/Contact_page/Contact_page";
 import Works from "./Components/Works/works";
 import History from './Components/About page/index'
 import Senmon from "./Components/Senmon/Senmon"
-import Intern_viza from "./Components/Intern_Viza/Intern_viza"
+import Intern_viza from "./Components/Intern_viza/Intern_viza"
 import Jobs from './Components/Job/Job'
 import Jobs2 from './Components/Works/works'
 import  Certificate from "./Components/Certificat/Certificate"

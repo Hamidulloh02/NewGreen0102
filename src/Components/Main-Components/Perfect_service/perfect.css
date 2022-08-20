@@ -1,5 +1,6 @@
 
 .Perfect_servis{
+    transition: 0.9s;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -10,7 +11,10 @@
 .Perfect_servis h1{
     padding-top: 10%;
     margin-bottom: 8%;
-    color: green;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    
 }
 
 .Perfect_servis p{
@@ -21,6 +25,7 @@
     border: 2px solid transparent;
     padding-top: 10%;
     padding-bottom:10%;
+    transition: 0.3s;
 }
 .perfect_card:hover{
    transition: 0.5s;
@@ -28,12 +33,12 @@
     width: 100%;
     height: 100%;
     border-radius: 15px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.567);
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.567); */
 }
 
 .perfect_card:hover h1{
    transition: 0.3s;
-    color: red;
+    color: green;
 }
 
 .perfect_card p {
