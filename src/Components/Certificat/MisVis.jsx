@@ -14,11 +14,11 @@ export default function MisVis() {
       </div>
 
       <div className="Img_text">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 my-3 d-flex align-items-center" data-aos="fade-up-right">
+        <div className="container ">
+          <div className="row ">
+            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 my-3 my-4 d-flex align-items-center" data-aos="fade-up-right">
               <div className="mx-5">
-              <h2 className="my-3">Mission</h2>
+              <h2 className="my-3 text-dark">Mission</h2>
               <p>
                 1. To help with the way of life in Japan
                 <br /> 2. Assistance with tax
@@ -35,7 +35,7 @@ export default function MisVis() {
               </p>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 my-3" data-aos="fade-up-left">
+            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 my-3 my-4" data-aos="fade-up-left">
           <img width='100%' src="./images/CertiImg/iStock.png" alt="hacc" />
         </div>
         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 my-3" data-aos="fade-up-right">
@@ -44,7 +44,7 @@ export default function MisVis() {
 
         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 my-3 d-flex align-items-center" data-aos="fade-up-left">
               <div className="mx-5">
-              <h2 className="my-3">Vision</h2>
+              <h2 className="my-3 text-dark">Vision</h2>
               <p>
                 
                 To organize a league of Uzbek bismen in Japan and establish mutual cooperation between them and gather them together at least once a year.

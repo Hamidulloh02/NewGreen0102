@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+  import React, { useEffect } from 'react'
 import AOS from "aos"
 
 export default function Get_Inputs() {
@@ -19,14 +19,27 @@ export default function Get_Inputs() {
           <div className="contact__page__left__setInfo"></div>
         </div>
       </div>
-      <div className="col-6 contact__section__right d-flex flex-column justify-content-center align-items-center"  data-aos="fade-left">
-        <div className="contact__section__getInfo text-center">
-          <h3>Let's talk</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eius error cupiditate quae illum dolorum similique, nisi nostrum odit natus ad amet.</p>
-          <input type="text" placeholder="Your name*"/>
-          <input type="email" placeholder="Example@gmail.com"/>
-          <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-          <input type="submit" value="Send Message"/>
+      <div className="col-6 contact__section__right"  data-aos="fade-left">
+        <div className="contact__section__getInfo">
+          <h3 className='my-3'>Contact Us</h3>
+          <p claccName='YourN'>Your name *</p>
+          <input type="text" placeholder="Your name"/>
+          <div className="row my-2 col6_2talik">
+            <div className="col-6">
+            <p>Email address *</p>
+            <input type="email" placeholder="Example@gmail.com"/>
+            </div>
+            <div className="col-6">
+            <p>Department *</p>
+            <select className='px-2' name="select"> 
+            <option value="value1">University</option>
+            <option value="value2" selected>Work</option>
+            <option value="value3">Study</option>
+          </select>
+            </div>
+          </div>
+          <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
+          <input type="submit" className='SendM' value="Send Message"/>
         </div>
       </div>
     </div>

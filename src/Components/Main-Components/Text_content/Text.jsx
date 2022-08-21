@@ -1,11 +1,18 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect,useContext} from 'react';
+// import { Context } from '../../Provider/AuthPriveder';
 import './text.css'
 import AOS from 'aos'
 const Text = (props) => {
     const [propstata, setpropsdata] = useState([])
+    // const[lang,setlang]=useContext(Context)
     useEffect(() => {
-        setpropsdata(props.data[0])
 
+        // {
+        //     (lang=="uz"?setpropsdata(props.data[0]):setpropsdata(props.data[1]))
+        // }
+
+        setpropsdata(props.data[0])
+        
         AOS.init({
             offset: 200,
             duration: 600,

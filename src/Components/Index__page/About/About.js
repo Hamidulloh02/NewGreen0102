@@ -21,14 +21,14 @@ function About() {
                 
                 <div className='container'>
                     <div className='row '>
-                        <div className='col-lg-6 col-md-6 col-sm-12' data-aos = "fade-up-right">
+                        <div className='col-lg-6 col-md-6 col-sm-12 p-4' data-aos = "fade-up-right">
                             <div className='about_dlex'>
                                 <img src='./images/Indexpage-img/about-img.png' /> 
                             </div> 
                         </div>
                         <div className='col-lg-6 col-md-6 col-sm-12' data-aos = "fade-left">
-                            <div>
-                                <h3 className='mt-3'>About Us Lorem ipsum dolor sit <h3>amet,</h3> </h3>
+                            <div className='index_page_about_text'>
+                                <p className='mt-3 about_tit'>About Us Lorem ipsum dolor sit <p className='about_tit'>amet,</p> </p>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisavida facilisi posuere leo nec nisl. Varius viverra tortor ut mauris. Nunc molestie nibh blandit fringilla pulvinar pharetra dictumst.
 

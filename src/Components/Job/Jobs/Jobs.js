@@ -18,7 +18,7 @@ function Jobs() {
                                 <option></option>
                             </select>
                             <select  className='my_sellect p-3'>
-                                <option>Newest First</option>
+                                <option className='p-5'>Newest First</option>
                                 <option></option>
                             </select>  
                     </div>     
@@ -143,7 +143,7 @@ function Jobs() {
                         </div>
                         </div>
                     </div>
-                    <div className='col-xl-8 col-lg-8 col-md-12 col-sm-12 pt-4'>
+                    <div className='col-xl-8 col-lg-8 col-md-12 col-sm-12 p-4 mt-2'>
                         <div className='container fronttype p-3'>
                             <h3>Frontend Developer (React)</h3>
                             <h4>$3,500 - 5,700 / month</h4>

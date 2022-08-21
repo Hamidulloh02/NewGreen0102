@@ -24,9 +24,9 @@ const Process = (props) => {
                                 <div className="col-lg-3 col-md-3 col-sm-12 text-center">
                                     <h2>{propstata.number1}</h2>
                                 </div>
-                                <div className="col-lg-8 col-md-8 col-sm-12 text-center">
+                                <div className="col-lg-8 col-md-8 col-sm-12">
                                     <h5> {propstata.title1} <img className='img_strelka' src="./images/process_of/strelka.png" alt="" /> </h5>
-                                    <p>
+                                    <p className='mt-4'>
                                     {propstata.text2}
                                     </p>
                                 </div>
@@ -37,9 +37,9 @@ const Process = (props) => {
                                 <div className="col-lg-3 col-md-3 col-sm-12 text-center">
                                     <h2>{propstata.number2}</h2>
                                 </div>
-                                <div className="col-lg-8 col-md-8 col-sm-12 text-center ">
+                                <div className="col-lg-8 col-md-8 col-sm-12 ms-3 ">
                                 <h5> {propstata.title2} <img className='img_strelka' src="./images/process_of/strelka.png" alt="" /> </h5>
-                                    <p>
+                                    <p className='mt-4'>
                                        {propstata.text2}
                                     </p>
                                 </div>
@@ -50,9 +50,9 @@ const Process = (props) => {
                                 <div className="col-lg-3 col-md-3 col-sm-12 text-center">
                                     <h2>{propstata.number3}</h2>
                                 </div>
-                                <div className="col-lg-8 col-md-8 col-sm-12 text-center">
+                                <div className="col-lg-8 col-md-8 col-sm-12 ms-3">
                                 <h5> {propstata.title3} <img className='img_strelka' src="./images/process_of/strelka.png" alt="" /> </h5>
-                                    <p>
+                                    <p className='mt-4'>
                                         {propstata.text3}
                                     </p>
                                 </div>

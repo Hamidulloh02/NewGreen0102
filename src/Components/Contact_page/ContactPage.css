@@ -7,7 +7,7 @@
     background-attachment: fixed;
 }
 .contact_title{
-   padding-top: 10%;
+   padding-top: 4%;
 }
 .contact__header__card{
     border-radius: 25px !important;
@@ -61,35 +61,60 @@ background-color: #6bc61072;
     transform: scale(1.1);
     transition: 0.5s;
 }
+.contact__section__getInfo {
+ margin-left: 50px;
+}
 .contact__section__getInfo input , .contact__section__getInfo textarea{
-    width: 75%;
+    width: 80%;
     padding: 10px 15px;
-    background-color: #6bc61096;
     border:none; 
-    border-radius: 10px;
     outline: none;
     margin-top: 15px;
-    transition: 0.5s;
     font-size: 18px;
-   
 }
 
 .contact__section__getInfo input::placeholder{
-    color: white;
-    font-size: 18px;
+    color: #747579;
+    font-size: 15px;
 }
 .contact__section__getInfo textarea::placeholder{
-    color: white;
-    font-size: 20px;
+    color: #747579;
+    font-size: 15px;
 }
-
-.contact__section__getInfo input:focus{
-    width: 90%;
-    transition: 0.5s;
+.contact__section__getInfo {
+    margin-top: 55px;
 }
-.contact__section__getInfo textarea:focus{
-    width: 90%;
-    transition: 0.5s;
+.contact__section__getInfo input {
+background: rgba(0, 117, 0, 0.15);
+border-radius: 10px;
+}
+.contact__section__getInfo select {
+    background: rgba(0, 117, 0, 0.15);
+    border-radius: 10px;
+    width: 75%;
+    padding: 10px 15px;
+    margin-top: 15px;
+    color: #747579;
+    }
+.contact__section__getInfo textarea {
+ background: rgba(0, 117, 0, 0.15);
+border-radius: 10px;
+}
+.SendM {
+    background: rgba(0, 117, 0, 0.75) !important;
+border-radius: 15px !important;
+color: #ffffff !important;
+}
+.col6_2talik .col-6{
+  width: 45% !important;
+}
+.contact__section__getInfo p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+color: #747579;
+margin-bottom: -10px;
 }
 
 
