@@ -1,24 +1,34 @@
-import React , {useEffect} from "react";
+import React , {useEffect, useState,useContext} from "react";
 import { BsArrowRightShort } from "react-icons/bs";
 import "./offer.css";
+import {Context} from '../../../useContext__comp/Provider/AuthProvider'
 import AOS from "aos";
-
+// import Json
+import offerjson from "./offer.json"
 function Offer() {
+  const [offerdata,setofferdata] = useState([])
+  const{lang,setlang}=useContext(Context)
   useEffect(()=>{
+
+    {
+      (lang == "uz" ?  setofferdata(offerjson[0]) :  setofferdata(offerjson[1]))
+    }
+
+   
     AOS.init({
       offset: 200,
       duration: 600,
       easing: "ease-in-sine",
       delay: 100,
     });
-  }, []);
+  }, [lang]);
 
   return (
     <>
       <div className="offerbody offerbody1" data-aos="fade-up">
        <div className="my-5">
        <h3 className="offermenu mt-5" >
-          What we offer
+          {offerdata.title}
           <br />
           <img
             className="rectang-img"
@@ -27,11 +37,7 @@ function Offer() {
         </h3>
         <div>
           <p className="offertext mx-auto">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap
+            {offerdata.text}
           </p>
         </div>
        </div>
@@ -45,9 +51,9 @@ function Offer() {
                     src="./images/Indexpage-img/card 1.png"
                   />
                 </div>
-                <h5 className="cardtext">Work in japan</h5>
+                <h5 className="cardtext">{offerdata.card1text}</h5>
                 <p className="offer_more">
-                  More <BsArrowRightShort />
+                  {offerdata.more} <BsArrowRightShort />
                 </p>
               </div>
             </div>
@@ -59,9 +65,9 @@ function Offer() {
                     src="./images/Indexpage-img/card 2.png"
                   />
                 </div>
-                <h5 className="cardtext">Study in japan</h5>
+                <h5 className="cardtext">{offerdata.card2text}</h5>
                 <p className="offer_more">
-                  More <BsArrowRightShort />
+                  {offerdata.more} <BsArrowRightShort />
                 </p>
               </div>
             </div>
@@ -73,9 +79,9 @@ function Offer() {
                     src="./images/Indexpage-img/card 3.png"
                   />
                 </div>
-                <h5 className="cardtext">Visa services</h5>
+                <h5 className="cardtext">{offerdata.card3text}</h5>
                 <p className="offer_more">
-                  More <BsArrowRightShort />
+                  {offerdata.more} <BsArrowRightShort />
                 </p>
               </div>
             </div>
@@ -87,9 +93,9 @@ function Offer() {
                     src="./images/Indexpage-img/card 4.png"
                   />
                 </div>
-                <h5 className="cardtext">All legal services</h5>
+                <h5 className="cardtext">{offerdata.card4text} </h5>
                 <p className="offer_more">
-                  More <BsArrowRightShort />
+                  {offerdata.more} <BsArrowRightShort />
                 </p>
               </div>
             </div>
@@ -101,9 +107,9 @@ function Offer() {
                     src="./images/Indexpage-img/card 5.png"
                   />
                 </div>
-                <h5 className="cardtext">Living Japan-Apartments for Rent</h5>
+                <h5 className="cardtext">{offerdata.card5text}</h5>
                 <p className="offer_more">
-                  More <BsArrowRightShort />
+                  {offerdata.more} <BsArrowRightShort />
                 </p>
               </div>
             </div>

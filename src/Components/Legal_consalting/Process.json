@@ -9,5 +9,16 @@
         "title3": "The Result",
         "number3": "03",
         "text3": "There are many variations  of  Lorem Ipsum available"
+    },
+    {
+        "title1": "リサーチ",
+        "number1": "一",
+        "text1": "には多くのバリエーションがあります。",
+        "title2": "ストラテジー",
+        "number2": "二",
+        "text2": "には多くのバリエーションがあります。",
+        "title3": "結果",
+        "number3": "三",
+        "text3": "には多くのバリエーションがあります。"
     }
 ]

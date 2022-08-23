@@ -3,5 +3,10 @@
         "name": "Senmon in Japan",
         "bg_img": "./images/Senmon/bg_2.png",
         "text": "Senmon-gakko (専門学校) are specialist schools that offer 2-year courses. The courses are typically vocational (hairdressing, fashion, caring, etc.); although there are schools that offer more generalist courses such as “business”."
+    },
+    {
+        "name": "日本の専門",
+        "bg_img": "./images/Senmon/bg_2.png",
+        "text": "専門学校は2年制の専門学校です。コースは通常、職業（理髪、ファッション、介護など）です。 「ビジネス」など、より一般的なコースを提供する学校もありますが。"
     }
 ]

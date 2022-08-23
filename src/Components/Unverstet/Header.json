@@ -3,5 +3,10 @@
         "bg_img":"./images/Unverstet/bg_1.png",
          "text1":"Study at the Top",
           "text2":"Universities in Japan"  
+    },
+    {
+        "bg_img":"./images/Unverstet/bg_1.png",
+         "text1":"トップで学ぶ",
+          "text2":"日本の大学"  
     }
 ]

@@ -5,5 +5,12 @@
         "button": "ENTROLL NOW",
         "bg_img": "./images/Work_viza/bg_4.png",
         "card_img": "./images/Work_viza/card_1.png"
+    },
+    {
+        "text1": "勉強したい ",
+        "text2": "私達と一緒に",
+        "button": "今すぐ登録",
+        "bg_img": "./images/Work_viza/bg_4_japan.png",
+        "card_img": "./images/Work_viza/card_1.png"
     }
 ]

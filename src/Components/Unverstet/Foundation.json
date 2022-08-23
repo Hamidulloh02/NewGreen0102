@@ -12,5 +12,19 @@
         "text4": "PhD",
         "img4": "./images/Unverstet/phd.png",
         "alt4": "phd"
+    },
+    {
+        "text1": "財団",
+        "img1": "./images/Unverstet/foundation.png",
+        "alt1": "財団",
+        "text2": " 学部",
+        "img2": "./images/Unverstet/under.png",
+        "alt2": "学部",
+        "text3": "大学院",
+        "img3": "./images/Unverstet/post.png",
+        "alt3": "大学院",
+        "text4": "博士号",
+        "img4": "./images/Unverstet/phd.png",
+        "alt4": "博士号"
     }
 ]

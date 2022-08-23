@@ -20,7 +20,7 @@
     color: black;
     width: 100%;
 }
-.menuhover:hover  .a_link{
+.menuhover:hover{
     color: green!important;
 }
 @media(min-width:991px){
@@ -29,7 +29,7 @@
     }
 }
 .main_menu_tit{
-    padding: 100px 5px;
+    padding-bottom: 50px;
 }
 .nav_navbar:hover{
  color: #006433!important;

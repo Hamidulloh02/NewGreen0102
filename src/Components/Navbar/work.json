@@ -1,0 +1,16 @@
+[
+{  
+    "title":"Work",
+    "job":"Job",
+    "work_visa":"Work visa",
+    "intern_visa":"Intern visa",
+    "register":"Register"
+},
+{
+    "title":"仕事",
+    "job":"仕事",
+    "work_visa":"就労ビザ",
+    "intern_visa":"インターンビザ",
+    "register":"登録"
+}
+]

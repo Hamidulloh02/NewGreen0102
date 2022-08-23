@@ -1,9 +1,9 @@
 .Text_content{
     background-size: cover;
-    background-position: center;
+    background-position: center ;
     width: 100%;
     height: 100%;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .text{
@@ -13,9 +13,9 @@
 .Text_content p{
     font-family: Inter;
     font-style: Bold;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 35px; 
-    font-weight: 900; 
+    /* font-weight: 900;  */
     align-items: center;
     vertical-align: center;
     padding-bottom: 15% !important;

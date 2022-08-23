@@ -1,18 +1,23 @@
-import React,{useState ,useEffect} from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import './perfect.css'
+import { Context } from '../../../useContext__comp/Provider/AuthProvider';
 import AOS from 'aos'
 const Perfect = (props) => {
     const [propstata, setpropsdata] = useState([])
+    const { lang, setlang } = useContext(Context)
     useEffect(() => {
-        setpropsdata(props.data[0])
+
+        {
+            (lang == "uz" ? setpropsdata(props.data[0]) : setpropsdata(props.data[1]))
+        }
 
         AOS.init({
             offset: 200,
             duration: 600,
             easing: 'ease-in-sine',
             delay: 100,
-          });
-    }, [])
+        });
+    }, [lang])
     return (
         <div className="Perfect_servis " style={{ backgroundImage: `url(${propstata.bg_img})` }}>
             <div className="container">

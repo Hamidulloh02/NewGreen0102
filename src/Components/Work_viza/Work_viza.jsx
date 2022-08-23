@@ -9,6 +9,7 @@ import text from './Text.json'
 import status from './Status.json'
 import process from './Process.json'
 import entrol from './Entrol.json'
+import Contact from '../Contact_page/contact_get_info/Get_Inputs'
 const WorkViza = () => {
     return (
         <div className='Work_Viza'>
@@ -17,6 +18,7 @@ const WorkViza = () => {
             <Status data={status} />
             <Process data={process} />
             <Entrol data={entrol} />
+            <Contact/>
         </div>
     );
 }

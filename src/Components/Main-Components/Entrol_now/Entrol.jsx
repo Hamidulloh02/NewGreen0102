@@ -1,10 +1,16 @@
-import React,{useState,useEffect} from 'react';
+import React,{useState,useEffect,useContext} from 'react';
 import './entrol.css'
+import{ Context } from '../../../useContext__comp/Provider/AuthProvider'
 import AOS from 'aos'
 const Entrol = (props) => {
     const [propstata, setpropsdata] = useState([])
+    const{lang,setlang}=useContext(Context)
     useEffect(() => {
-        setpropsdata(props.data[0])
+       
+        {
+            (lang=="uz"?setpropsdata(props.data[0]):setpropsdata(props.data[1]))
+           
+        }
 
         AOS.init({
             offset: 200,
@@ -12,7 +18,7 @@ const Entrol = (props) => {
             easing: 'ease-in-sine',
             delay: 100,
           });
-    }, [])
+    }, [lang])
 
    
     return (

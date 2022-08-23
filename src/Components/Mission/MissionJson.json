@@ -1,0 +1,26 @@
+[
+    {
+        "miss": "Missin",
+        "bgMV": "./images/Mission/bgMV.png",
+        "viss": "Vision",
+        "missText":"1. To help with the way of life in Japan ",
+        "miT2": "2. Assistance with tax and pension issues when returning from Japan.",
+        "miT3": "3. Learning Japanese online and offline",
+        "miT4": "4. Support when arriving and leaving Japan.",
+        "miT5": "5. Help to find a job and educational institution in Japan.",
+        "miT6": "6. Business seminars (business meetings in Japan and Uzbekistan, studying the Japanese and Uzbek market for entrepreneurs)",
+        "viText": "To organize a league of Uzbek bismen in Japan and establish mutual cooperation between them and gather them together at least once a year. To unite Japanese businessmen in Uzbekistan and organize a meeting between them at least once a year. Organization of business tours composed only of businessmen. Green box's future plans. Establishment of Uzbekistan branch of Green Box Connecting Imabari with a region or district of Uzbekistan and organizing a sister cities project. Establishing cooperation between Japanese and Uzbek business representatives through golf."
+},
+{
+    "miss": "ミシン",
+    "bgMV": "./images/Mission/bgMVJa.png",
+    "viss": "ヴィジョン",
+    "missText":"1 .日本の生活をサポートする",
+    "miT2": "2. 帰国時の税金・年金問題のサポート。",
+    "miT3": "3.オンラインとオフラインで日本語を学ぶ",
+    "miT4": "4. 出入国時のサポート",
+    "miT5": "5. 日本での仕事や教育機関を探すお手伝いをします。",
+    "miT6": "6. ビジネスセミナー（日本とウズベキスタンでの商談会、起業家のための日本とウズベキスタン市場の勉強）",
+    "viText": "日本でウズベキスタンのビスメンのリーグを組織し、彼らの間の相互協力を確立し、少なくとも年に一度彼らを集めること。ウズベキスタンの日本人ビジネスマンを団結させ、少なくとも年に一度、彼らの間で会合を組織すること。ビジネスマンのみで構成されたビジネスツアーの組織。グリーンボックスの今後の予定。グリーンボックスウズベキスタン支部設立 今治とウズベキスタンの地方・県を結び、姉妹都市提携を行う。ゴルフを通じて日本とウズベクのビジネス関係者の協力を確立する。"
+}
+]

@@ -3,5 +3,10 @@
         "bg_img": "./images/Sertificate/bg_1.png",
         "text1": "Choose From Top  ",
         "text2":"Universities in Japan"
+    },
+    {
+        "bg_img": "./images/Sertificate/bg_1.png",
+        "text1": "上から選ぶ  ",
+        "text2":"日本の大学"
     }
 ]

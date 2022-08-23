@@ -1,20 +1,28 @@
-import React , {useEffect} from 'react'
+import React , {useEffect, useState,useContext} from 'react'
+import {Context} from '../../../useContext__comp/Provider/AuthProvider'
 import "./about.css"
 import AOS  from 'aos'
-
+//import Json
+import aboutjson from "./about.json"
 function About() {
+    const [aboutdata,setaboutdata] = useState([])
+    const {lang,setlang}=useContext(Context)
     useEffect(()=>{
+        {
+            (lang=="uz"? setaboutdata(aboutjson[0]): setaboutdata(aboutjson[1]))
+        }
+
         AOS.init({
           offset: 200,
           duration: 600,
           easing: 'ease-in-sine',
           delay: 100,
         });
-      }, [])
+      }, [lang])
     return (
         <div>
-            <div className='aboutbody'>
-                <h2 className='text-center margn_top'>About Us
+            <div className='aboutbody' style={{ backgroundImage: `url(${aboutdata.Bg_img})`}}>
+                <h2 className='text-center margn_top'>{aboutdata.Title}
                 <br/>
                 <img className='bottom_img' src='./images/Indexpage-img/Rectangle 2.png'/>
                 </h2>
@@ -28,14 +36,13 @@ function About() {
                         </div>
                         <div className='col-lg-6 col-md-6 col-sm-12' data-aos = "fade-left">
                             <div className='index_page_about_text'>
-                                <p className='mt-3 about_tit'>About Us Lorem ipsum dolor sit <p className='about_tit'>amet,</p> </p>
+                                <p className='mt-3 about_tit'>{aboutdata.Text1} <p className='about_tit'>{aboutdata.Text2}</p> </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisavida facilisi posuere leo nec nisl. Varius viverra tortor ut mauris. Nunc molestie nibh blandit fringilla pulvinar pharetra dictumst.
+                                    {aboutdata.Text3}
 
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim aliquam, proin sed pulvinar bibendum. Aliquet gravida facilisi posuere leo nec nisl. Varius viverra tortor ut mauris. Nunc molestie nibh blandit fringilla pulvinar pharetra dictumst.
-
+                                    {aboutdata.Text4}
                                 </p>
                             </div>
                         </div>

@@ -6,5 +6,13 @@
         "card1_text": "Institutions",
         "card2_text": "Professions",
         "card3_text": "State Schools"
+    },
+    {
+        "card1": "3,456",
+        "card2": "150 +",
+        "card3": "300 +",
+        "card1_text": "機関",
+        "card2_text": "職業",
+        "card3_text": "公立学校"
     }
 ]

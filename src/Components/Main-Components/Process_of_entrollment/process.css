@@ -29,11 +29,11 @@
     margin-left: 30%;
     width: 15%;
 }
-.process_card:hover{
+/* .process_card:hover{
     border-radius: 15px;
     transform: scale(1.03) !important;
     transition: 0.2s !important;
-}
+} */
 
 h2{
     font-size: 70px;
@@ -41,13 +41,13 @@ h2{
     font-weight: 700;
 }
 
-.process_card:hover h5{
+/* .process_card:hover h5{
     color: red;
-}
+} */
 
-.process_card:hover h2{
+/* .process_card:hover h2{
     color: green;
-}
+} */
 
 
 .padding{

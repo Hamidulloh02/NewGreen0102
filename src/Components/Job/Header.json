@@ -2,5 +2,9 @@
     {
         "bg_img":"./images/Job/bg_1.png",
          "text1":"Find Your Dream Job"
+    },
+    {
+        "bg_img":"./images/Job/bg_1.png",
+         "text1":"夢の仕事を見つける"
     }
 ]

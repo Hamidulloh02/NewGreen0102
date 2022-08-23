@@ -1,60 +1,73 @@
-import React,{useEffect} from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import "./footer.css"
+import { Context } from '../../useContext__comp/Provider/AuthProvider'
+import FooterJ from '../Footer/FooterJ.json'
 import AOS from 'aos'
 function Footer() {
+
+
+    const [footerdatajson, setFooterdatajson] = useState([])
+    const{lang,setlang}=useContext(Context)
     useEffect(() => {
-        
+
+        {
+            (lang == "uz" ? setFooterdatajson(FooterJ[0]) : setFooterdatajson(FooterJ[1]))
+        }
+
+       
 
         AOS.init({
             offset: 200,
             duration: 600,
             easing: 'ease-in-sine',
             delay: 100,
-          });
-    }, []);
+        });
+    })
     return (
         <>
-            <div className='footerbody' data-aos="flip-down">
+            <div className='footerbody' style={{ backgroundImage: `url(${footerdatajson.footerBodyBgImg})` }}>
 
-                <div className='backfooter' >
-                    <div className='container'>
-                        <div className='row footermenu'>
-                            <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
-                                <div className='logo'>
-                                    <img className='me-3' src='./images/Footer-img/greenbox_logo.png' />
+                <div className='bgdark'>
+                    <div className='backfooter' >
+                        <div className='container'>
+                            <div className='row footermenu'>
+                                <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
+                                    <div className='logo'>
+                                        <img className='me-3' src='./images/Footer-img/greenbox_logo.png' />
+                                    </div>
+                                    <p className='footertext'>{footerdatajson.textLOGOBOTTOM}</p>
                                 </div>
-                                <p className='footertext'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and  specimen book. </p>
-                            </div>
-                            <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
-                                <div className="row mt-4">
-                                    <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
-                                        <ul>
-                                            <li className='footertitle py-3'>Company</li>
-                                            <li>About</li>
-                                            <li>Contact</li>
-                                            <li>Certificate</li>
-                                            <li>Mission & Vision</li>
-                                        </ul>
-                                    </div>
-                                    <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
-                                        <ul>
-                                            <li className=' footertitle py-3'>Services</li>
-                                            <li>Legal advices</li>
-                                            <li>Visa</li>
-                                            <li>Startin Business</li>
-                                            <li>Japan</li>
-                                        </ul>
-                                    </div>
-                                    <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
-                                        <ul>
-                                            <li className=' footertitle py-3'>Help</li>
-                                            <li>Help center</li>
-                                            <li>Contact support</li>
-                                            <li>Instruction</li>
-                                            <li>How it works</li>
-                                        </ul>
-                                    </div>
+                                <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
+                                    <div className="row mt-4">
+                                        <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
+                                            <ul>
+                                                <li className='footertitle py-3'>{footerdatajson.textCom}</li>
+                                                <li>{footerdatajson.textAb}</li>
+                                                <li>{footerdatajson.textCon}</li>
+                                                <li>{footerdatajson.textCer}</li>
+                                                <li>{footerdatajson.textMV}</li>
+                                            </ul>
+                                        </div>
+                                        <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
+                                            <ul>
+                                                <li className=' footertitle py-3'>{footerdatajson.textSer}</li>
+                                                <li>{footerdatajson.textLA}</li>
+                                                <li>{footerdatajson.textVis}</li>
+                                                <li>{footerdatajson.textSB}</li>
+                                                <li>{footerdatajson.textJa}</li>
+                                            </ul>
+                                        </div>
+                                        <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
+                                            <ul>
+                                                <li className=' footertitle py-3'>{footerdatajson.textHelp}</li>
+                                                <li>{footerdatajson.textHC}</li>
+                                                <li>{footerdatajson.textCS}</li>
+                                                <li>{footerdatajson.textINS}</li>
+                                                <li>{footerdatajson.textHIW}</li>
+                                            </ul>
+                                        </div>
 
+                                    </div>
                                 </div>
                             </div>
                         </div>

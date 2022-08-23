@@ -41,7 +41,7 @@ function Jobs() {
                             <h5 className='h5teg'> $3,500 - 5,700 / month</h5>
                             <p>Java Script</p>
                             <div className='jobcard-m2'>
-                                <p className='jobcard-m2-text'> Stark Industries </p>
+                                <p className='jobcard-m2-text mt-4'> Stark Industries </p>
                                 <p>Today</p>
 
                             </div>
@@ -60,7 +60,7 @@ function Jobs() {
                             <h5 className='h5teg'>$95,700 - 165,000 / year</h5>
                             <p> DevOps</p>
                             <div className='jobcard-m2'>
-                                <p className='jobcard-m2-text'>Napoleon IT</p>
+                                <p className='jobcard-m2-text mt-4'>Napoleon IT</p>
                                 <p>Today</p>
 
                             </div>
@@ -79,7 +79,7 @@ function Jobs() {
                             <h5 className='h5teg'>  $86,000 - 120,000 / year</h5>
                             <p> Java</p>
                             <div className='jobcard-m2'>
-                                <p className='jobcard-m2-text'> Mark Seven</p>
+                                <p className='jobcard-m2-text mt-4'> Mark Seven</p>
                                 <p>Today</p>
 
                             </div>
@@ -98,7 +98,7 @@ function Jobs() {
                             <h5 className='h5teg'>$130,000 - 170,000 / year</h5>
                             <p>Java</p>
                             <div className='jobcard-m2'>
-                                <p className='jobcard-m2-text'>Dave Co.</p>
+                                <p className='jobcard-m2-text mt-4'>Dave Co.</p>
                                 <p>Today</p>
 
                             </div>
@@ -117,7 +117,7 @@ function Jobs() {
                             <h5 className='h5teg'>  $52,500 - 66,500 / year</h5>
                             <p> JavaScript/NodeJS</p>
                             <div className='jobcard-m2'>
-                                <p className='jobcard-m2-text'> Cube</p>
+                                <p className='jobcard-m2-text mt-4'> Cube</p>
                                 <p>Today</p>
 
                             </div>
@@ -136,7 +136,7 @@ function Jobs() {
                             <h5 className='h5teg'>  $110,000 - 140,000 / year</h5>
                             <p> DevOps</p>
                             <div className='jobcard-m2'>
-                                <p className='jobcard-m2-text'> Kernal IT</p>
+                                <p className='jobcard-m2-text mt-4'> Kernal IT</p>
                                 <p>Today</p>
 
                             </div>

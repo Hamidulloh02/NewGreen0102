@@ -1,0 +1,12 @@
+[
+    {
+        "bg_img": "./images/Mission/bg_1.png",
+        "text1": "Mission   ",
+        "text2":"Vision"
+    },
+    {
+        "bg_img": "./images/Mission/bg_1.png",
+        "text1": "ミッション ",
+        "text2":"ヴィジョン"
+    }
+]

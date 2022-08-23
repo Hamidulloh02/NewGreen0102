@@ -6,5 +6,13 @@
         "card1_text": "Graduated Students",
         "card2_text": "Employment Rate",
         "card3_text": "Years of experience"
+    },
+    {
+        "card1": "3,456",
+        "card2": "80 %",
+        "card3": " 10k +",
+        "card1_text": "卒業生",
+        "card2_text": "雇用率",
+        "card3_text": "長年の経験"
     }
 ]

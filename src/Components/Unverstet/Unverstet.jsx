@@ -11,6 +11,7 @@ import foundation from './Foundation.json'
 import status from './Status.json'
 import process from './Procsess.json'
 import entrol from './Entrol.json'
+import Contact from '../Contact_page/contact_get_info/Get_Inputs'
 const Unverstet = () => {
     return (
         <div className='Unverstet'>
@@ -20,6 +21,7 @@ const Unverstet = () => {
             <Status data={status}/>
             <Process data={process} />
             <Entrol data={entrol} />
+            <Contact/>
         </div>
     );
 }

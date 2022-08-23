@@ -1,0 +1,16 @@
+[
+    {
+    "title":" About Company",
+    "history":"History",
+    "contact":"Contact",
+    "certificat":"Certificat",
+    "missionvison":"Mission&Vison"
+},
+{  
+    "title":" 会社について",
+    "history":"歴史",
+    "contact":"コンタクト",
+    "certificat":"証明書",
+    "missionvison":"ミッション&ビジョン"
+}
+]

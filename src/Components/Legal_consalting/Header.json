@@ -3,5 +3,10 @@
         "bg_img": "./images/Legal_consalting/bg_1.png",
         "text1": "Legal",
         "text2": "Consulting"
+    },
+    {
+        "bg_img": "./images/Legal_consalting/bg_1.png",
+        "text1": "法的",
+        "text2": "コンサルティング"
     }
 ]

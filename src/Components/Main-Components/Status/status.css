@@ -19,7 +19,7 @@
 .Institutions{
     margin: 0 auto;
     border: 2px solid white;
-    width: 200px;
+    width: 250px;
     height: 200px;
     border-radius: 15px;
     padding-bottom: 20% !important;
@@ -37,10 +37,10 @@
     font-weight: 700;
 }
 
-.Institutions:hover{
+/* .Institutions:hover{
     transition: 0.3s;
     transform: scale(1.03) ;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.793) ;
-    /* border: 2px solid rgba(17, 238, 17, 0.793); */
+    border: 2px solid rgba(17, 238, 17, 0.793);
 
-}
+} */

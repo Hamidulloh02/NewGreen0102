@@ -8,6 +8,7 @@ import header from './Header.json'
 import strategic from './Strategic.json'
 import process from './Process.json'
 import perfect from './Perfect.json'
+import Contact from '../Contact_page/contact_get_info/Get_Inputs'
 const Legal = () => {
     return (
         <div  className='Legal_consalting'>
@@ -15,6 +16,7 @@ const Legal = () => {
              <Strategic data={strategic} />
             <Process data={process} />
             <Perfect data={perfect}/>
+            <Contact/>
         </div>
     );
 }

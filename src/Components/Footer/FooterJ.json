@@ -1,0 +1,40 @@
+[
+{
+    "footerBodyBgImg": "./images/Footer-img/bg_uz.png",
+    "textCom":"Company",
+    "textSer": "Services",
+    "textHelp": "Help",
+    "textAb": "About",
+    "textCon": "Contact",
+    "textCer": "Certificate",
+    "textMV": "Mission & Vision",
+    "textLA": "Legal advices",
+    "textVis": "Visa",
+    "textSB": "Starting Business",
+    "textJa": "Japan",
+    "textHC": "Help center",
+    "textCS": "Contact support",
+    "textINS": "Instruction",
+    "textHIW": "How it works",
+    "textLOGOBOTTOM": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and specimen book."
+},
+{
+    "footerBodyBgImg": "./images/Footer-img/bg_japan.png",
+    "textCom":"会社",
+    "textSer": "サービス",
+    "textHelp": "ヘルプ",
+    "textAb": "アボット",
+    "textCon": "コンタクト",
+    "textCer": "証明書",
+    "textMV": "ミッション＆ビジョン",
+    "textLA": "法律相談",
+    "textVis": "ビザ",
+    "textSB": "起業",
+    "textJa": "日本",
+    "textHC": "ヘルプセンター",
+    "textCS": "サポート問い合わせ先",
+    "textINS": "命令",
+    "textHIW": "使い方",
+    "textLOGOBOTTOM": " は、印刷および植字業界の単なるダミー テキストです。 Lorem Ipsum は、1500 年代に見知らぬ印刷業者が活字と見本帳のゲラを手に入れて以来、業界の標準的なダミー テキストでした。"
+}
+]

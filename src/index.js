@@ -14,7 +14,7 @@ import Intern_viza from "./Components/Intern_viza/Intern_viza"
 import Jobs from './Components/Job/Job'
 import Jobs2 from './Components/Works/works'
 import  Certificate from "./Components/Certificat/Certificate"
-import Mission__Vision from './Components/Certificat/MisVis'
+import Mission__Vision from './Components/Mission/MisVis'
 import Legal_Advices from './Components/Legal_consalting/Legal'
 import Businiss_consalting from './Components/Busniss_consalting/Busniss'
 import School from './Components/School/School';

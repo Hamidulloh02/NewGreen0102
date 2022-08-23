@@ -6,5 +6,13 @@
         "card1_text": "Graduated Pupils",
         "card2_text": "Private Schools",
         "card3_text": "State Schools"
+    },
+    {
+        "card1": "3,456",
+        "card2": "900 +",
+        "card3": "300 +",
+        "card1_text": "卒業生",
+        "card2_text": "私立学校",
+        "card3_text": "公立学校"
     }
 ]

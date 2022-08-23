@@ -3,8 +3,7 @@
     padding: 0;
 }
 .offerbody{
-    background-image: url("./back-offer.png");
-    background-repeat: no-repeat;
+   background-repeat: no-repeat;
    background-size:contain;
     
 }

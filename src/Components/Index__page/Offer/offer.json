@@ -1,0 +1,24 @@
+[
+    {
+        "title":" What we offer",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy textever since the 1500s, when an unknown printer took a galley of typeand scrambled it to make a type specimen book. It has survived notonly five centuries, but also the leap",
+        "card1text":"Work in japan",
+        "more":"More",
+        "card2text":"Study in japan",
+        "card3text":"Visa services",
+        "card4text":"All legal services",
+        "card5text":"Living Japan-Apartments for Rent",
+        "bg_img":"./images/Indexpage-img/back-offer.png"
+    },
+    {
+        "title":"우리가 제공하는 것",
+        "text":"단순히 인쇄 및 조판 산업의 더미 텍스트입니다. Lorem Ipsum은 1500년대부터 무명의 프린터가 활자 갤리선을 가져와 활자 표본 책을 만들기 위해 뒤섞인 이후로 업계의 표준 더미 텍스트였습니다. 그것은 5 세기뿐만 아니라 도약에도 살아남았습니다.",  
+        "more":"더", 
+        "card1text":"일본에서 일하다",
+        "card2text":"일본 유학",
+        "card3text":"비자 서비스",
+        "card4text":"모든 법률 서비스",
+        "card5text":"리빙 재팬-아파트 임대",
+        "bg_img":""      
+    }
+]

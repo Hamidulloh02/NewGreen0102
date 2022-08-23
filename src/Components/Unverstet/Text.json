@@ -3,5 +3,10 @@
         "name": "Universities in Japan",
         "bg_img": "./images/Unverstet/bg_2.png",
         "text": "  The modern Japanese higher education system has undergone numerous changes since the Meiji period and was largely modeled after Western countries such as Germany, France, Britain, and the United States with traditional Japanese pedagogical elements to create a unique Japanese model to serve its national needs"
+    },
+    {
+        "name": "日本の大学",
+        "bg_img": "./images/Unverstet/bg_2.png",
+        "text": " 現代の日本の高等教育制度は、明治時代以降、数多くの変化を遂げてきました。ドイツ、フランス、英国、米国などの西洋諸国をモデルにして、伝統的な日本の教育的要素を取り入れて、国のニーズに応える独自の日本モデルを作成しました。"
     }
 ]

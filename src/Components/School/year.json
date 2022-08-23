@@ -6,5 +6,13 @@
          "img1":"./images/School/elementary.png",
           "img2":"./images/School/middle.png",
          "img3":"./images/School/hight.png"
+    },
+    {
+        "year1":"小学校 ",
+         "year2":"真ん中",
+         "year3":"身長 ",
+         "img1":"./images/School/elementary.png",
+          "img2":"./images/School/middle.png",
+         "img3":"./images/School/hight.png"
     }
 ]

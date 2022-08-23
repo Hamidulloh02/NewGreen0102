@@ -1,0 +1,19 @@
+[
+    {
+        "text1":"Work in Japan",
+        "text2":"study and visa services",
+        "text3":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+        "btn1text":"Vacancies",
+        "btn2text":"Apply Now",
+        "cardimg":"./images/Indexpage-img/Main-img.png",
+        "bg_img":"./images/Indexpage-img/bg_1.png"
+    },{
+        "text1":"일본에서 일하다",
+        "text2":"학업 및 비자 서비스",
+        "text3":"Lorem Ipsum은 단순히 인쇄 및 조판 산업의 더미 텍스트입니다. Lorem Ipsum은 1500년대부터 알려지지 않은 프린터가 조리실을 가져간 이후로 업계의 표준 더미 텍스트였습니다.",
+        "btn1text":"공석",
+        "btn2text":"지금 신청",
+        "cardimg":"./images/Indexpage-img/Main-img.png",
+        "bg_img":"./images/Indexpage-img/homebg_jp.png"  
+    }
+]

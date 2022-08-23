@@ -11,11 +11,11 @@
 }
 .contact__header__card{
     border-radius: 25px !important;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .contact__header__card:hover{
-    transform: translate(7px ,-7px);
-    transition: 0.5s;
+    transform: scale(1.005);
+    transition: 0.1s !important;
 }
 
 .contact__adress{
@@ -58,7 +58,7 @@ background-color: #6bc61072;
     transition: 0.5s;
 }
 .contact__section__card:hover .rasmcha{
-    transform: scale(1.1);
+    transform: scale(1.03);
     transition: 0.5s;
 }
 .contact__section__getInfo {
@@ -80,6 +80,11 @@ background-color: #6bc61072;
 .contact__section__getInfo textarea::placeholder{
     color: #747579;
     font-size: 15px;
+}
+
+.contact_card:hover{
+    /* background-color: aqua; */
+    transform: scale(1.03);
 }
 .contact__section__getInfo {
     margin-top: 55px;

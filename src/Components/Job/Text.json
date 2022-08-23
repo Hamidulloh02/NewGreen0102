@@ -3,5 +3,10 @@
         "name":"Why Japan is Good for Job?",
          "bg_img":"./images/Job/bg_2.png", 
          "text":"Japan as a whole has a reputation for being a hard-working country, with a strict work ethic and loyal employees. However, whether or not this dedication pays off in the countrys productivity is debatable, when comparing Japan to parts of the world less known for their worth ethic but still manage high productivity. Apart from job stability, Japanese company also offer decent employee benefits like medical care, pension, some cases travelling too. Clean and safe environment – Japan offers a clean and well-organised environment. It enhances your life experience."
+    },
+    {
+        "name":"なぜ日本は就職に向いているのか?",
+         "bg_img":"./images/Job/bg_2_japan.png", 
+         "text":"日本は全体として勤勉な国であり、厳格な労働倫理と忠実な従業員がいるという評判があります。しかし、この献身が国の生産性に報いるかどうかは、価値ある倫理であまり知られていないが依然として高い生産性を維持している世界の地域と日本を比較した場合、議論の余地があります.雇用の安定性とは別に、日本企業は医療、年金、場合によっては旅行などのまともな福利厚生も提供しています。清潔で安全な環境 - 日本は清潔で整然とした環境を提供します。それはあなたの人生経験を向上させます。"
     }
 ]
