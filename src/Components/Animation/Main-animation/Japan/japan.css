@@ -1,0 +1,14 @@
+.japan_gif{
+    margin: 0 auto;
+    width: 15% !important;
+    
+    background-color: white;
+}
+
+.japan_animation_header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}

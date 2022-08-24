@@ -1,0 +1,56 @@
+[
+    {
+        "Orientation":"Frontend Developer (React)",
+        "Salary_start":"$3,500",
+        "Salary_end":"5,700",
+        "Salary_type":"month",
+        "Soft_skills":"Java Script",
+        "Fulname":"Stark Industries",
+        "Data":"Today"
+    },
+    {
+        "Orientation":"DevOps Engineer at Kyndryl, Inc.",
+        "Salary_start":"$95,700",
+        "Salary_end":"165,000",
+        "Salary_type":"year",
+        "Soft_skills":"DevOps",
+        "Fulname":"Napoleon IT",
+        "Data":"Today"
+    },
+    {
+        "Orientation":"Java Spring Developer at Mark 7",
+        "Salary_start":"$86,000",
+        "Salary_end":"120,000",
+        "Salary_type":"year",
+        "Soft_skills":"Java",
+        "Fulname":"Mark Seven",
+        "Data":"Today"
+    },
+    {
+        "Orientation":"Senior Java Engineer at Dave Co.",
+        "Salary_start":"$130,000",
+        "Salary_end":"170,000",
+        "Salary_type":"year",
+        "Soft_skills":"Java",
+        "Fulname":"Dave Co.",
+        "Data":"Today"
+    },
+    {
+        "Orientation":"Junior FullStack Developer at Cube",
+        "Salary_start":"$52,500",
+        "Salary_end":"66,500",
+        "Salary_type":"year",
+        "Soft_skills":"JavaScript/NodeJS",
+        "Fulname":"Cube",
+        "Data":"Today"
+    },
+    {
+        "Orientation":"DevOps Engineer at Kernal IT",
+        "Salary_start":"$110,000",
+        "Salary_end":"140,000",
+        "Salary_type":"year",
+        "Soft_skills":" DevOps",
+        "Fulname":"Kernal IT",
+        "Data":"Today"
+    }
+]

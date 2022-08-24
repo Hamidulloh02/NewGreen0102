@@ -1,0 +1,28 @@
+[
+    {
+        "textCU":"Contact Us",
+        "textYN":"Your name *",
+        "textYN1":"Your name",
+        "tEA":"Email address *",
+        "tEA1":"Example@gmail.com",
+        "tD":"Department *",
+        "tUn": "University",
+        "tW":"Work",
+        "tS":"Study",
+        "tM":"Message",
+        "sM":"Send Message"
+    },
+    {
+        "textCU":"お問い合わせ",
+        "textYN":"あなたの名前 *",
+        "textYN1":"あなたの名前",
+        "tEA":"電子メールアドレス *",
+        "tEA1":"例@gmail.com",
+        "tD":"デパートメント *",
+        "tUn": "大学",
+        "tW":"仕事",
+        "tS":"勉強",
+        "tM":"メッセージ",
+        "sM":"メッセージを送る"
+    }
+]

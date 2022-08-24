@@ -1,0 +1,56 @@
+[
+    {
+        "Orientation":"フロントエンド開発者 (React)",
+        "Salary_start":"$3,500",
+        "Salary_end":"5,700",
+        "Salary_type":"月",
+        "Soft_skills":"Java Script",
+        "Fulname":"スターク・インダストリーズ",
+        "Data":"今日"
+    },
+    {
+        "Orientation":"Kyndryl, Inc. の DevOps エンジニア」",
+        "Salary_start":"$95,700",
+        "Salary_end":"165,000",
+        "Salary_type":"年",
+        "Soft_skills":"DevOps",
+        "Fulname":"ナポレオン IT",
+        "Data":"今日"
+    },
+    {
+        "Orientation":"マーク 7 の Java Spring 開発者",
+        "Salary_start":"$86,000",
+        "Salary_end":"120,000",
+        "Salary_type":"年",
+        "Soft_skills":"Java",
+        "Fulname":"Mark Seven",
+        "Data":"今日"
+    },
+    {
+        "Orientation":"Dave Co のシニア Java エンジニア",
+        "Salary_start":"$130,000",
+        "Salary_end":"170,000",
+        "Salary_type":"年",
+        "Soft_skills":"Java",
+        "Fulname":"Dave Co.",
+        "Data":"今日"
+    },
+    {
+        "Orientation":"Cube のジュニア FullStack 開発者",
+        "Salary_start":"$52,500",
+        "Salary_end":"66,500",
+        "Salary_type":"年",
+        "Soft_skills":"JavaScript/NodeJS",
+        "Fulname":"Cube",
+        "Data":"今日"
+    },
+    {
+        "Orientation":"Kernal IT の DevOps エンジニア",
+        "Salary_start":"$110,000",
+        "Salary_end":"140,000",
+        "Salary_type":"年",
+        "Soft_skills":" DevOps",
+        "Fulname":"Kernal IT",
+        "Data":"今日"
+    }
+]

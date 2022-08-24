@@ -3,6 +3,7 @@
     "text":"The basic school system in Japan is composed of elementary school (lasting six years), middle school (three years), high school (three years), and university (four years). Education is compulsory only for the nine years of elementary and middle school.",
     "bg_img":"./images/Work-img01/work_card_uzb_1_bg.png",
     "card_img":"./images/Work-img01/work_card_uzb_1.png",
-    "alt":"card-img"
+    "alt":"card-img",
+    "width":"100%"
 }
 ]
