@@ -1,9 +1,18 @@
-[{
-    "title":"Long School",
-    "text":"The basic school system in Japan is composed of elementary school (lasting six years), middle school (three years), high school (three years), and university (four years). Education is compulsory only for the nine years of elementary and middle school, but 98.8% of students go on to high school.",
-    "bg_img":"./images/Education-img/educate_card_uzb_bg1.png",
-    "card_img":"./images/Education-img/educate_card_uzb_1.png",
-    "alt":"card-img",
-    "width":"100%"
-}
+[
+    {
+        "title": "Long School",
+        "text": "The basic school system in Japan is composed of elementary school (lasting six years), middle school (three years), high school (three years), and university (four years). Education is compulsory only for the nine years of elementary and middle school, but 98.8% of students go on to high school.",
+        "bg_img": "./images/Education-img/educate_card_uzb_bg1.png",
+        "card_img": "./images/Education-img/educate_card_uzb_1.png",
+        "alt": "card-img",
+        "width": "100%"
+    },
+    {
+        "title": "ロングスクール",
+        "text": "日本の基本的な学校制度は、小学校（6年制）、中学校（3年制）、高校（3年制）、大学（4年制）で構成されています。義務教育は小学校と中学校の9年間だけですが、高校への進学率は98.8%です。",
+        "bg_img": "./images/Education-img/educate_card_uzb_bg1.png",
+        "card_img": "./images/Education-img/educate_card_uzb_1.png",
+        "alt": "カード画像",
+        "width": "100%"
+    }
 ]

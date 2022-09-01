@@ -21,7 +21,7 @@ const Status = (props) => {
     return (
         <div className="Profissional">
             <div className="container">
-                <div className="row justify-content-around ">
+                <div className="row justify-content-around status_div justify-content-center">
                     <div className="col-lg-4 col-md-6 col-sm-12  " data-aos="zoom-in-right">
                         <div className="pencil_card">
                             <div className="Institutions">

@@ -1,6 +1,6 @@
 
 .pencil_card{
-    width: 50% !important;
+    /* width: 50% !important; */
     margin: 0 auto;
     padding-top: 15% !important;
     padding-bottom: 10%;
@@ -32,6 +32,10 @@
 
 }
 
+
+.status_div{
+    margin: 0 auto;
+}
 .Institutions h2{
     font-size: 30px;
     font-weight: 700;
@@ -44,3 +48,92 @@
     border: 2px solid rgba(17, 238, 17, 0.793);
 
 } */
+
+@media only screen and (max-width:626px){
+    .Institutions{
+        margin: 0 auto;
+        border: 2px solid white;
+        width: 180px;
+        height: 180px;
+        border-radius: 15px;
+        padding-bottom: 20% !important;
+        transition: 0.3s;
+    }
+
+    .Profissional{
+        background-color:#00750092 ;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 5%;
+      
+    }
+}
+
+@media only screen and (max-width:600px){
+    .Institutions{
+        margin: 0 auto;
+        border: 2px solid white;
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        padding-bottom: 20% !important;
+        transition: 0.3s;
+    }
+    .Profissional{
+        width: 100%;
+    }
+
+    .Institutions h1{
+        font-size: 50px;
+        font-weight: 700;
+    
+    }
+
+    .Institutions h2{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    
+}
+
+
+
+@media only screen and (max-width:460px){
+    .Institutions{
+        margin: 0 auto;
+        border: 2px solid white;
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        padding-bottom: 20% !important;
+        transition: 0.3s;
+    }
+}
+
+@media only screen and (max-width:350px){
+    .Institutions{
+        margin: 0 auto;
+        border: 2px solid white;
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+        padding-bottom: 20% !important;
+        transition: 0.3s;
+    }
+
+    .Institutions h1{
+        font-size: 45px;
+        font-weight: 700;
+    
+    }
+
+    .Institutions h2{
+        font-size: 25px;
+        padding-bottom: 0px !important;
+        font-weight: 700;
+    }
+}
+
+
+

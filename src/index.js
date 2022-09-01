@@ -9,6 +9,7 @@ import Main from './Components/Index__page/Index'
 import Contact_page from "./Components/Contact_page/Contact_page";
 import Works from "./Components/Works/works";
 import History from './Components/About page/index'
+import Education from './Components/Education/Education'
 import Senmon from "./Components/Senmon/Senmon"
 import Intern_viza from "./Components/Intern_viza/Intern_viza"
 import Jobs from './Components/Job/Job'
@@ -20,6 +21,7 @@ import Businiss_consalting from './Components/Busniss_consalting/Busniss'
 import School from './Components/School/School';
 import Universtet from "./Components/Unverstet/Unverstet"
 import Work_visa from "./Components/Work_viza/Work_viza"
+import Work from './Components/Work/Work';
 // import Study from ''
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,8 +35,10 @@ root.render(
         <Route path="/history" element={<History/>} /> 
         <Route path="/certificate" element={<Certificate/>}/>
         <Route path="/mission_vision" element={<Mission__Vision/>}/>
+        <Route path='/education' element={<Education/>}/>
         <Route path="/senmon" element={<Senmon/>} />
         <Route path="/university" element={<Universtet/>}/>
+        <Route path='/work' element={<Work/>}/>
         <Route path="/work_visa" element={< Work_visa/>}/>
         <Route path="/intern_visa" element={<Intern_viza/>}/>
         <Route path="/jobs" element={<Jobs/>}/>

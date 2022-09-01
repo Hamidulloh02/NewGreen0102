@@ -3,5 +3,10 @@
         "name": "Education in Japan",
         "bg_img": "./images/Education-img/educate_bg2.png",
         "text": "The level of Japanese education is high even by world standards. In OECD’s Programme for International Student Assessment (PISA) aimed at fifteen-year-olds, Japanese students recorded high levels of achievement, particularly in science related areas. Educational activities outside of school also flourish, and programs leading to advanced education are implemented."
+    },
+    {
+        "name": " 日本の教育",
+        "bg_img": "./images/Education-img/educate_bg2.png",
+        "text": " 日本の教育水準は世界基準でも高い。 15 歳を対象とした OECD の留学生評価プログラム (PISA) では、日本の学生は、特に科学関連分野で高い成績を収めました。学校外での教育活動も盛んになり、高度な教育につながるプログラムが実施されています。"
     }
 ]

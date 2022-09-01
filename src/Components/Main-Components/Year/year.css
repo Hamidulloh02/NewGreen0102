@@ -11,6 +11,10 @@
   
 }
 
+.card_center{
+    margin: 0 auto;
+}
+
 .pencil:hover{
     transform: scale(1.1);
     transition: 0.4s;
@@ -30,14 +34,24 @@
 
 .pencil_card{
     margin: 0 auto;
-    padding-top: 8%;
-    padding-bottom: 7%;
+    /* padding-top: 8%; */
+    /* padding-bottom: 7%; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 
 @media only screen and (max-width:1200px){
     .pencil_card{
+        width: 60% !important;
+    }
+}
+
+@media only screen and (max-width:740px){
+    .pencil_card{
+        margin: 0 70%;
         width: 60% !important;
     }
 }

@@ -8,7 +8,7 @@
 }
 
 .Header_img .h1{
-    padding-top: 20%;
+    padding-top: 20% !important;
     font-size: 64px;
    
 }
@@ -19,42 +19,102 @@
 
 }
 
-@media only screen and (max-width:595px){
-    .Header_img h1{
-        font-size: 50px;
-        margin-top:30px;
-    }
-    .Header_img .h1{
-        font-size: 50px;
-    }
-}
+
 
 @media only screen and (max-width:930px){
     .Header_img .h1{
-     padding-top: 25% !important;
+     padding-top: 30% !important;
          /* background-color: red; */
-         font-size: 100px !important;
+         font-size: 65px !important;
      }
      .Header_img h1{
-        font-size: 100px;
+        font-size: 65px;
      }
  }
 
-@media only screen and (max-width:600px){
+
+ @media only screen and (max-width:600px){
+
+    .Header_img .h1{
+        padding-top: 60% !important;
+            /* background-color: red; */
+            font-size: 50px !important;
+        }
    .Header_img h1{
-    /* padding-top: 30% !important; */
+        font-size: 50px !important;
+    }
+}
+
+
+
+ 
+
+
+
+@media only screen and (max-width:450px){
+
+    .Header_img .h1{
+        padding-top: 90% !important;
+            font-size: 40px !important;
+        }
+   .Header_img h1{
         /* background-color: red; */
-        font-size: 120px !important;
+        font-size: 40px !important;
     }
 }
 
 @media only screen and (max-width:370px){
     .Header_img h1{
-        font-size: 30px !important;
+        font-size: 35px !important;
+     
+    }
+    .Header_img .h1{
+        padding-top: 90% !important;
+        font-size: 35px !important;
+    }
+}
+
+@media only screen and (max-width:270px){
+    .Header_img h1{
+        font-size: 25px !important;
         margin-top:30px;
     }
     .Header_img .h1{
-        padding-top: 20% !important;
-        font-size: 30px !important;
+        padding-top: 80% !important;
+        font-size: 25px !important;
+    }
+}
+
+@media only screen and (max-width:186px){
+    .Header_img h1{
+        font-size: 22px !important;
+      
+    }
+    .Header_img .h1{
+        padding-top: 90% !important;
+        font-size: 22px !important;
+    }
+}
+
+
+@media only screen and (max-width:85px){
+    .Header_img h1{
+        font-size: 15px !important;
+      
+    }
+    .Header_img .h1{
+        padding-top: 100% !important;
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width:55px){
+    .Header_img h1{
+        font-size: 12px !important;
+      
+    }
+    .Header_img .h1{
+        padding-top: 130% !important;
+        font-size: 12px !important;
     }
 }

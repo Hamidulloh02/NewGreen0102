@@ -11,8 +11,8 @@ import Text from './Components/Main-Components/Text_content/Text'
 import textjson from './Components/Intern_viza/Text.json'
 import AuthProvider from "./useContext__comp/Provider/AuthProvider";
 import { Context } from "./useContext__comp/Provider/AuthProvider";
-
 import Work from './Components/Work/Work'
+
 // import Work from './Components/Work/Work'
 function App() {
   const [animated, setanimated] = useState(true);
@@ -38,8 +38,7 @@ function App() {
 
     </AuthProvider>
    
-   
-   
+  
 
     // <div>
     //   <Japan_animation/>

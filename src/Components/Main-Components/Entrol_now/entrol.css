@@ -71,13 +71,38 @@ img{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.38);
     border: none;
 }
-@media only screen and (max-width:998px){
+
+@media only screen and (max-width:1200px){
     .entrol_img{
         width: 100%;
     }
     
+    .entrol_h1{
+        font-size: 50px;
+    }
     .card_1{
         width: 65%;
+    }
+}
+@media only screen and (max-width:998px){
+    .entrol_img{
+        width: 100%;
+    }
+
+    .entrol_bg{
+        text-align: center;
+    }
+    
+    .card_1{
+        width: 65%;
+    }
+
+    .entrol_h1{
+        margin-left: 0;
+    }
+
+    .entroll_button{
+        margin-left: 0;
     }
 }
 
@@ -88,7 +113,21 @@ img{
     
     .entroll_button{
         width: 50%;
-        margin-left: 20%;
+        margin-left: 0%;
+    }
+    .card_1{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:579px){
+    .entrol_img{
+        width: 80%;
+    }
+    
+    .entroll_button{
+        width: 50%;
+        margin-left: 0%;
     }
     .card_1{
         width: 80%;

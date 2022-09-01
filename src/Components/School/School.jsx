@@ -12,6 +12,8 @@ import statusjson from "./Status.json"
 import processjson from './Process.json'
 import entroljson from './Entrol.json'
 import Contact from '../Contact_page/contact_get_info/Get_Inputs'
+import Work from '../Work/Work';
+
 const School = () => {
     return (
         <div className='School'>
@@ -22,6 +24,7 @@ const School = () => {
             <Process data={processjson} />
             <Entrol data={entroljson} />
             <Contact/>
+          
         </div>
     );
 }

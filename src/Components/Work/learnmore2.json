@@ -1,9 +1,18 @@
-[{
-    "title":"Special visa",
-    "text":"As more destinations around the world develop world-class universities, there have never been so many attractive possibilities for international students. Find your own ideal study abroad destination with our student-focused study destination guides.",
-    "bg_img":"./images/Work-img01/work_card_uzb_bg_3.png",
-    "card_img":"./images/Work-img01/work_card_uzb_2.png",
-    "alt":"card-img",
-    "width":"100%"
-}
+[
+    {
+        "title": "Special visa",
+        "text": "As more destinations around the world develop world-class universities, there have never been so many attractive possibilities for international students. Find your own ideal study abroad destination with our student-focused study destination guides.",
+        "bg_img": "./images/Work-img01/work_card_uzb_bg_3.png",
+        "card_img": "./images/Work-img01/work_card_uzb_2.png",
+        "alt": "card-img",
+        "width": "100%"
+    },
+    {
+        "title": "特別査証",
+        "text": "世界中のより多くの目的地が世界クラスの大学を開発するにつれて、留学生にとってこれほど多くの魅力的な可能性はありません.学生向けの留学先ガイドで、理想的な留学先を見つけてください。",
+        "bg_img": "./images/Work-img01/work_card_uzb_bg_3.png",
+        "card_img": "./images/Work-img01/work_card_uzb_2.png",
+        "alt": " カード画像",
+        "width": "100%"
+    }
 ]

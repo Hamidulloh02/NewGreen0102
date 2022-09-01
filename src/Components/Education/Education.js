@@ -1,4 +1,6 @@
-import React from 'react'
+import React,{useContext,useEffect} from 'react'
+import { Context } from '../../useContext__comp/Provider/AuthProvider'
+// import { Link } from 'react-router-dom'
 
 //import Components
 import LearnMore from '../Main-Components/LearnMore/LearnMore'
@@ -15,6 +17,7 @@ import learn_left2json from "./learnmore2.json"
 
 
 function Education() {
+ 
   return (
     <div>
           <Heder data={headerjson}/>

@@ -1,7 +1,12 @@
 [
     {
         "bg_img":"./images/Education-img/educate_bg1.png" ,
-        "text1": "Work",
+        "text1": "Education",
+        "text2": ""
+    },
+    {
+        "bg_img":"./images/Education-img/educate_bg1.png" ,
+        "text1": "教育",
         "text2": ""
     }
 ]

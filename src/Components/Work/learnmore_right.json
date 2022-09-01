@@ -1,9 +1,18 @@
-[{
-    "title":"Interen Visa",
-    "text":"Senmon-gakko (専門学校) are specialist schools that offer 2-year courses. The courses are typically vocational (hairdressing, fashion, caring, etc.); although there are schools that offer more generalist courses such as “business”..",
-    "bg_img":"./images/Work-img01/work_card_uzb_bg_2.png",
-    "card_img":"./images/Work-img01/work_card_uzb_02.png",
-    "alt":"card-img",
-    "width":"100%"
-}
+[
+    {
+        "title": "Interen Visa",
+        "text": "Senmon-gakko (専門学校) are specialist schools that offer 2-year courses. The courses are typically vocational (hairdressing, fashion, caring, etc.); although there are schools that offer more generalist courses such as “business”..",
+        "bg_img": "./images/Work-img01/work_card_uzb_bg_2.png",
+        "card_img": "./images/Work-img01/work_card_uzb_02.png",
+        "alt": "card-img",
+        "width": "100%"
+    },
+    {
+        "title": "インターンビザ",
+        "text": "専門学校は2年制の専門学校です。コースは通常、職業（理髪、ファッション、介護など）です。 「ビジネス」など、より一般的なコースを提供する学校もありますが..",
+        "bg_img": "./images/Work-img01/work_card_uzb_bg_2.png",
+        "card_img": "./images/Work-img01/work_card_uzb_02.png",
+        "alt": "カード画像",
+        "width": "100%"
+    }
 ]

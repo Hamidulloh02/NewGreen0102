@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect,useContext} from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import Topnavbar from "./Topnavbar"
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -13,14 +13,14 @@ import aboutjson from "./aboutcompany.json"
 import workjson from "./work.json"
 import studyjson from "./study.json"
 import servicejson from "./service.json"
-import {Context} from "../../useContext__comp/Provider/AuthProvider"
+import { Context } from "../../useContext__comp/Provider/AuthProvider"
 
 function CollapsibleExample() {
   const [show, setShow] = useState(false);
   const [show1, setShow1] = useState(false);
   const [show2, setShow2] = useState(false);
   const [show3, setShow3] = useState(false);
-  const{lang,setlang}=useContext(Context)
+  const { lang, setlang } = useContext(Context)
 
   // Json data
   const [aboutdata, setaboutdata] = useState([])
@@ -33,24 +33,24 @@ function CollapsibleExample() {
       (lang == "uz" ? setaboutdata(aboutjson[0]) : setaboutdata(aboutjson[1]))
     }
     {
-      (lang == "uz" ?  setworkdata(workjson[0]) :  setworkdata(workjson[1]))
+      (lang == "uz" ? setworkdata(workjson[0]) : setworkdata(workjson[1]))
     }
     {
-      (lang == "uz" ?   setstudydata(studyjson[0]) :   setstudydata(studyjson[1]))
+      (lang == "uz" ? setstudydata(studyjson[0]) : setstudydata(studyjson[1]))
     }
     {
-      (lang == "uz" ?   setservicedata(servicejson[0]) :   setservicedata(servicejson[1]))
+      (lang == "uz" ? setservicedata(servicejson[0]) : setservicedata(servicejson[1]))
     }
 
-    
-   
-   
-    
+
+
+
+
   }, [lang])
   return (
     <div>
       <div  >
-        <Topnavbar  />
+        <Topnavbar />
         <Navbar expand="lg" variant="dark" >
           <Container>
             <Navbar.Brand href="#home" className='text-dark '>
@@ -83,8 +83,9 @@ function CollapsibleExample() {
                   href="#deets"
                   className='text-dark  menunav '>
                   <NavDropdown
+           
                     title={
-                      <span className="text-dark main_menu_tit">{workdata.title} <BsChevronDown className='dropicon' /></span>
+                      <span > <Link to="work" className="text-dark main_menu_tit"> {workdata.title} </Link> <BsChevronDown className='dropicon' /></span>
                     }
                     show={show2}
                     onMouseEnter={() => setShow2(true)}
@@ -96,11 +97,12 @@ function CollapsibleExample() {
                     <NavDropdown.Item as={Link} to="/intern_visa" className='menuhover'>{workdata.intern_visa}</NavDropdown.Item>
                     {/* <NavDropdown.Item as={Link} to="#" className='menuhover'>{workdata.register}</NavDropdown.Item> */}
                   </NavDropdown>
+
                 </Nav.Link>
                 <Nav.Link href="#deets" className='text-dark menunav'>
                   <NavDropdown
                     title={
-                      <span className="text-dark main_menu_tit"> {studydata.title} <BsChevronDown className='dropicon' /></span>
+                      <span > <Link to="education" className="text-dark main_menu_tit"> {studydata.title}</Link> <BsChevronDown className='dropicon' /></span>
                     }
                     show={show3}
 

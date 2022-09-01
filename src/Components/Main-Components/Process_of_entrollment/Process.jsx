@@ -26,10 +26,10 @@ const Process = (props) => {
                 <div className="row justify-content-around padding">
                     <div className="col-lg-4 col-md-6 col-sm-12 process_card " data-aos="zoom-in-right">
                         <div className="row   justify-content-around">
-                            <div className="col-lg-3 col-md-3 col-sm-12 text-center">
+                            <div className="col-lg-4 col-md-4 mb-3  text-center">
                                 <h2>{propstata.number1}</h2>
                             </div>
-                            <div className="col-lg-8 col-md-8 col-sm-12">
+                            <div className="col-lg-8 col-md-8 col-sm-12 text-center" >
                                 <h5> {propstata.title1} <img className='img_strelka' src="./images/process_of/strelka.png" alt="" /> </h5>
                                 <p className='mt-4'>
                                     {propstata.text2}
@@ -39,10 +39,10 @@ const Process = (props) => {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12 process_card " data-aos="zoom-out-up">
                         <div className="row   ">
-                            <div className="col-lg-3 col-md-3 col-sm-12 text-center">
+                            <div className="col-lg-4 col-md-4 col-sm-12 mb-3 text-center">
                                 <h2>{propstata.number2}</h2>
                             </div>
-                            <div className="col-lg-8 col-md-8 col-sm-12 ms-3 ">
+                            <div className="col-lg-8 col-md-8 col-sm-12  text-center">
                                 <h5> {propstata.title2} <img className='img_strelka' src="./images/process_of/strelka.png" alt="" /> </h5>
                                 <p className='mt-4'>
                                     {propstata.text2}
@@ -52,10 +52,10 @@ const Process = (props) => {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12  process_card" data-aos="zoom-in-left">
                         <div className="row ">
-                            <div className="col-lg-3 col-md-3 col-sm-12 text-center">
+                            <div className="col-lg-4 col-md-4 col-sm-12 text-center mb-3">
                                 <h2>{propstata.number3}</h2>
                             </div>
-                            <div className="col-lg-8 col-md-8 col-sm-12 ms-3">
+                            <div className="col-lg-8 col-md-8 col-sm-12   text-center">
                                 <h5> {propstata.title3} <img className='img_strelka' src="./images/process_of/strelka.png" alt="" /> </h5>
                                 <p className='mt-4'>
                                     {propstata.text3}

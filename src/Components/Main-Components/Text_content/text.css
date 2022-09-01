@@ -34,13 +34,14 @@
     }
 }
 
+
 @media only screen and (max-width:800px){
     .text{
         width: 80% !important;
     }
 
     .Text_content p{
-        font-size: 13px;
+        font-size: 18px;
     }
 
     .text_h1{
@@ -48,3 +49,96 @@
     }
 }
 
+@media only screen and (max-width:580px){
+    .text{
+        width: 90% !important;
+    }
+
+    .Text_content p{
+        font-size: 16px;
+        line-height: 25px;
+
+    }
+
+    .text_h1{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .text{
+        width: 95% !important;
+    }
+
+    .Text_content p{
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    .text_h1{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:310px){
+    .text{
+        width: 100% !important;
+    }
+
+    .Text_content p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .text_h1{
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width:190px){
+    .text{
+        width: 100% !important;
+    }
+
+    .Text_content p{
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .text_h1{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:140px){
+    .text{
+        width: 100% !important;
+    }
+
+    .Text_content p{
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .text_h1{
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width:70px){
+    .text{
+        width: 100% !important;
+    }
+
+    .Text_content p{
+        font-size: 5px;
+        line-height: 5px;
+    }
+
+    .text_h1{
+        font-size: 8px;
+    }
+}

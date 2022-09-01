@@ -25,7 +25,7 @@ function Offer() {
 
   return (
     <>
-      <div className="offerbody offerbody1" data-aos="fade-up">
+      <div className="offerbody offerbody1" data-aos="fade-up" style={{ backgroundImage: `url(${offerdata.bg_img})` }}>
        <div className="my-5">
        <h3 className="offermenu mt-5" >
           {offerdata.title}
@@ -117,6 +117,7 @@ function Offer() {
         </div>
 
         <div className="offercard mt-4"></div>
+        
       </div>
     </>
   );

@@ -3,5 +3,10 @@
         "bg_img":"./images/Work-img01/work_bg.png" ,
         "text1": "Work",
         "text2": ""
+    },
+    {
+        "bg_img":"./images/Work-img01/work_bg.png" ,
+        "text1": " 仕事",
+        "text2": ""
     }
 ]

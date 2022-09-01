@@ -73,3 +73,26 @@ h2{
     font-size: 70px;
     padding-bottom: 6%;
 }
+
+
+@media only screen and (max-width:500px){
+    .img_strelka{
+        margin-left: 25%;
+        width: 15%; 
+    }
+
+    .Process{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:345px){
+    .img_strelka{
+        margin-left: 15%;
+        width: 15%; 
+    }
+
+    .Process{
+        width: 100%;
+    }
+}
