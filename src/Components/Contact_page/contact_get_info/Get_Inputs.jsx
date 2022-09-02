@@ -1,4 +1,4 @@
-  import React, { useEffect,useState,useContext} from 'react'
+import React, { useEffect,useState,useContext} from 'react'
 import AOS from "aos"
 import { Context } from '../../../useContext__comp/Provider/AuthProvider'
 import GetIN_inputs from '../../Contact_page/contact_get_info/GetIN_inputs.json'
@@ -26,13 +26,13 @@ export default function Get_Inputs() {
   return (
     <div className="container contact__section">
     <div className="row">
-      <div className="col-6 contact__section__left" data-aos="fade-right">
+      <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 contact__section__left" data-aos="fade-right">
         <div className="contact__section__card border">
           <div className="rasmcha"></div>
           <div className="contact__page__left__setInfo"></div>
         </div>
       </div>
-      <div className="col-6 contact__section__right"  data-aos="fade-left">
+      <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 contact__section__right"  data-aos="fade-left">
         <div className="contact__section__getInfo">
           <h3 className='my-3'>{getInputdatajson.textCU}</h3>
           <p claccName='YourN'>{getInputdatajson.textYN}</p>

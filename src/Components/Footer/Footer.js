@@ -28,14 +28,14 @@ function Footer() {
             <div className='footerbody' style={{ backgroundImage: `url(${footerdatajson.footerBodyBgImg})` }}>
 
                 <div className='bgdark'>
-                    <div className='backfooter' >
+                    <div className='backfooter'>
                         <div className='container'>
                             <div className='row footermenu'>
-                                <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
-                                    <div className='logo'>
+                                <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12 justify-content-center'>
+                                    <div className='logo justify-content-center'>
                                         <img className='me-3' src='./images/Footer-img/greenbox_logo.png' />
                                     </div>
-                                    <p className='footertext'>{footerdatajson.textLOGOBOTTOM}</p>
+                                    <p className='footertext text-center'>{footerdatajson.textLOGOBOTTOM}</p>
                                 </div>
                                 <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
                                     <div className="row mt-4">

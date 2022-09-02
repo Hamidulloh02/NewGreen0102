@@ -9,6 +9,8 @@
     justify-content: center;
     align-items: center;
     line-height: 40px;
+    text-decoration: none;
+    color: black;
 }
 .h5teg{
     color: black;
@@ -150,4 +152,8 @@
     width: 100%;
     display: flex;
     justify-content: end;
+}
+
+html{
+    scroll-behavior: smooth;
 }

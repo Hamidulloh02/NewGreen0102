@@ -1,29 +1,21 @@
-import React, { useEffect, useState,useContext } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./jobs.css"
-import { Context } from '../../../useContext__comp/Provider/AuthProvider'
 //import Json
 import Cardjson from "./jop_eng.json"
 import Cardjsonjp from"./job_jp.json"
-import filter_json from "./filter.json"
 
 function Jobs() {
     const [carddata, setcarddata] = useState([])
-    const[filter,setfilter]=useState([])
-    const{lang,setlang}=useContext(Context)
+    const [carddatajp,setcarddatajp] = useState([])
+    const [carddata_main,setcarddata_main] = useState([])
     useEffect(() => {
-        {
-            (lang == "uz" ? setcarddata(Cardjson)  :  setcarddata(Cardjsonjp))
-          }
-        
-          {
-            (lang == "uz" ? setfilter(filter_json[0])  :  setfilter(filter_json[1]))
-          }
-
-        
-        
-    }, [lang])
+        setcarddata(Cardjson)
+        setcarddatajp(Cardjsonjp)
+    }, [])
     function cardFunc(index){
-        console.log(index);
+        // setcarddata_main(carddata[index])
+        setcarddata_main(carddatajp[index])
+        // console.log(carddatamain)
     }
     return (
         <div>
@@ -31,17 +23,17 @@ function Jobs() {
                 <div className='row dropjob'>
                     <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
                         <div>
-                            <div className='jobanmount '>{filter.jobs}</div>
+                            <div className='jobanmount '>Jobs  2495</div>
                         </div>
                     </div>
                     <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
                         <div className='twoselect'>
                             <select className='my_sellect p-3'>
-                                <option>{filter.filter}</option>
+                                <option>Filter</option>
                                 <option></option>
                             </select>
                             <select className='my_sellect p-3'>
-                                <option className='p-5'>{filter.first}</option>
+                                <option className='p-5'>Newest First</option>
                                 <option></option>
                             </select>
                         </div>
@@ -52,10 +44,11 @@ function Jobs() {
                 <div className='row'>
                     <div className='col-xl-4 col-lg-4 col-md-12 col-sm-12'>
                         {
-                            carddata.map((e, index) => {
+                            carddatajp.map((e, index) => {
                                 return (
                                     <>
-                                        <div className='jobcard' onClick={()=>{cardFunc(index)}}>
+                                        <a href='#full' className='jobcard' onClick={()=>{cardFunc(index)}}>
+                                        <div>
                                             <div className='container pt-3'>
                                                 <div className='jobcard-m1'>
                                                     <div className='div1'>
@@ -73,102 +66,104 @@ function Jobs() {
                                                 </div>
                                             </div>
                                         </div>
+                                        </a>
                                     </>
                                 )
                             })
                         }
                     </div>
-                    <div className='col-xl-8 col-lg-8 col-md-12 col-sm-12 p-4 mt-2'>
+                    <div id='full' className='col-xl-8 col-lg-8 col-md-12 col-sm-12 p-4 mt-2 #full'>
                         <div className='container fronttype p-3'>
-                            <h3>Frontend Developer (React)</h3>
-                            <h4>$3,500 - 5,700 / month</h4>
-                            <p>JavaScript</p>
+                            <h3>{carddata_main.Orientation}</h3>
+                            <h3>{carddata_main.Salary_start}-{carddata_main.Salary_end}/{carddata_main.Salary_type}</h3>
+                            {/* <h4>{carddata_main.Salary_type}</h4> */}
+                            <p>{carddata_main.carddatamain}</p>
                             <div className='flex_normal '>
-                                <p className='jobtitle mt-3'>Stark Industries</p>
-                                <p>August 11, 2022</p>
+                                <p className='jobtitle mt-3'>{carddata_main.Fulname}</p>
+                                <p>{carddata_main.Data}</p>
                             </div>
                             <div className='btn_remote'>
-                                <i class="bi bi-house-door me-2 mb-2"></i><h5>Remote Job</h5>
+                                <i class="bi bi-house-door me-2 mb-2"></i><h5>{carddata_main.Remotejob}</h5>
                             </div>
                             <div className='mt-5'>
-                                <p className='jobtitle'>Speciaty</p>
-                                <p className='btn_frond'>Frontend</p>
+                                <p className='jobtitle'>{carddata_main.Speciaty}</p>
+                                <p className='btn_frond'>{carddata_main.Prog_lan}</p>
                             </div>
                             <div className='mt-5 mb-3'>
-                                <p className='jobtitle'>Programming languages</p>
-                                <p className='btn_frond '>Java Script</p>
+                                <p className='jobtitle'>{carddata_main.Prog_text}</p>
+                                <p className='btn_frond '>{carddata_main.Prog_lan}</p>
                             </div>
                             <div>
                                 <div className='container'>
-                                    <p className='jobtitle mt-5'>Frameworks</p>
+                                    <p className='jobtitle mt-5'>{carddata_main.Frawemork_text}</p>
                                     <div className='row'>
-                                        <div className=' col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-4'>
-                                            <p className='btn_frond'>TypeScript</p>
+                                        <div className=' col-xl-3 col-lg-3 col-md-4 col-sm-6 '>
+                                            <p className='btn_frond'>{carddata_main.Framework1}</p>
                                         </div>
-                                        <div className=' col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-4'>
-                                            <p className='btn_frond'>Webpack</p>
+                                        <div className=' col-xl-3 col-lg-3 col-md-4 col-sm-6 '>
+                                            <p className='btn_frond'>{carddata_main.Framework2}</p>
                                         </div>
-                                        <div className=' col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-4'>
-                                            <p className='btn_frond'>Docker</p>
+                                        <div className=' col-xl-3 col-lg-3 col-md-4 col-sm-6 '>
+                                            <p className='btn_frond'>{carddata_main.Framework3}</p>
                                         </div>
-                                        <div className=' col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-4'>
-                                            <p className='btn_frond'>React.js</p>
+                                        <div className=' col-xl-3 col-lg-3 col-md-4 col-sm-6 '>
+                                            <p className='btn_frond'>{carddata_main.Framework4}</p>
                                         </div>
                                     </div>
                                     <div className='row'>
                                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
-                                            <p className='btn_frond'>Bootstrap</p>
+                                            <p className='btn_frond'>{carddata_main.Framework5}</p>
                                         </div>
                                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
-                                            <p className='btn_frond'>Tailwind</p>
+                                            <p className='btn_frond'>{carddata_main.Framework6}</p>
                                         </div>
                                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
-                                            <p className='btn_frond'>HTML</p>
+                                            <p className='btn_frond'>{carddata_main.Framework7}</p>
                                         </div>
                                     </div>
                                     <div className='row'>
                                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
-                                            <p className='btn_frond'>Git</p>
+                                            <p className='btn_frond'>{carddata_main.Framework8}</p>
                                         </div>
                                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
-                                            <p className='btn_frond'>CSS</p>
+                                            <p className='btn_frond'>{carddata_main.Framework9}</p>
                                         </div>
                                     </div>
 
                                 </div>
                                 <div>
-                                    <p className='jobtitle mt-5'>Expertise level</p>
-                                    <p className='btn_frond'>Senior</p>
+                                    <p className='jobtitle mt-5'>{carddata_main.Expert_level}</p>
+                                    <p className='btn_frond'>{carddata_main.Senior}</p>
                                 </div>
                                 <div>
-                                    <p className='jobtitle mt-5'>Working conditions and benefits</p>
+                                    <p className='jobtitle mt-5'>{carddata_main.Working_text}</p>
                                     <div className='container'>
                                         <div className='row'>
                                             <div className='col-xl-5 col-lg-5 col-md-12 col-sm-12'>
-                                                <div className='benefitbtn'>equipment for work</div>
+                                                <div className='benefitbtn'>{carddata_main.Work1}</div>
                                             </div>
                                             <div className='col-xl-7 col-lg-7 col-md-12 col-sm-12'>
-                                                <div className='benefitbtn2'>compensation for language courses</div>
+                                                <div className='benefitbtn2'>{carddata_main.Work2}</div>
                                             </div>
                                         </div>
                                         <div className='row mt-4'>
                                             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
-                                                <div className='benefitbtn3'>paid courses</div>
+                                                <div className='benefitbtn3'>{carddata_main.Work3}</div>
                                             </div>
                                             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
-                                                <div className='benefitbtn3'>paid courses</div>
+                                                <div className='benefitbtn3'>{carddata_main.Work4}</div>
                                             </div>
                                             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
-                                                <div className='benefitbtn3'>paid courses</div>
+                                                <div className='benefitbtn3'>{carddata_main.Work5}</div>
                                             </div>
 
                                         </div>
                                         <div className='row mt-4'>
                                             <div className='col-xl-7 col-lg-7 col-md-12 col-sm-12'>
-                                                <div className='benefitbtn2'>compensation for language courses</div>
+                                                <div className='benefitbtn2'>{carddata_main.Work6}</div>
                                             </div>
                                             <div className='col-xl-5 col-lg-5 col-md-12 col-sm-12'>
-                                                <div className='benefitbtn'>equipment for work</div>
+                                                <div className='benefitbtn'>{carddata_main.Work7}</div>
                                             </div>
                                         </div>
                                     </div>

@@ -17,13 +17,13 @@ import Work from '../Work/Work';
 const School = () => {
     return (
         <div className='School'>
-            <Header  data={headerjson} />
-            <Text data={textjson} />
-            <Year data={year} />
-            <Status data={statusjson}/>
-            <Process data={processjson} />
-            <Entrol data={entroljson} />
-            <Contact/>
+        <Header data={headerjson}/>
+        <Text data={textjson}/>
+        <Year data={year}/>
+        <Status data ={statusjson}/>
+        <Process data={processjson}/>
+        <Entrol data={entroljson}/>
+        <Contact/>
           
         </div>
     );
