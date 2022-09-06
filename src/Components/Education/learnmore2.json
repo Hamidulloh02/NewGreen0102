@@ -4,7 +4,8 @@
     "bg_img":"./images/Education-img/educate_card_uzb_bg3.png",
     "card_img":"./images/Education-img/educate_card_uzb_3.png",
     "alt":"card-img",
-    "width":"100%"
+    "width":"100%",
+    "to":"/unverstet"
 },
 {
     "title":"大学",
@@ -12,6 +13,7 @@
     "bg_img":"./images/Education-img/educate_card_uzb_bg3.png",
     "card_img":"./images/Education-img/educate_card_uzb_3.png",
     "alt":"カード画像",
-    "width":"100%"
+    "width":"100%",
+    "to":"/unverstet"
 }
 ]

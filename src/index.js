@@ -31,6 +31,7 @@ root.render(
       <Route path="/" element={<App/>}>
         <Route index element={<Main/>} />
         <Route path='/jobs-filter' element={<Works/>}/>
+        <Route path='/long_school' element={<School/>}/>
         <Route path='/contact' element={<Contact_page/>}/>
         <Route path="/history" element={<History/>} /> 
         <Route path="/certificate" element={<Certificate/>}/>

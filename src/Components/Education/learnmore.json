@@ -5,7 +5,8 @@
         "bg_img": "./images/Education-img/educate_card_uzb_bg1.png",
         "card_img": "./images/Education-img/educate_card_uzb_1.png",
         "alt": "card-img",
-        "width": "100%"
+        "width": "100%",
+        "to":"/long_school"
     },
     {
         "title": "ロングスクール",
@@ -13,6 +14,8 @@
         "bg_img": "./images/Education-img/educate_card_uzb_bg1.png",
         "card_img": "./images/Education-img/educate_card_uzb_1.png",
         "alt": "カード画像",
-        "width": "100%"
+        "width": "100%",
+        "to":"/long_school"
+        
     }
 ]

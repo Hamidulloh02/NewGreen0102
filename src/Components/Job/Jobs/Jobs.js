@@ -1,18 +1,28 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
+import { Context } from '../../../useContext__comp/Provider/AuthProvider'
 import "./jobs.css"
 //import Json
 import Cardjson from "./jop_eng.json"
-import Cardjsonjp from"./job_jp.json"
+import Cardjsonjp from "./job_jp.json"
 
 function Jobs() {
     const [carddata, setcarddata] = useState([])
-    const [carddatajp,setcarddatajp] = useState([])
-    const [carddata_main,setcarddata_main] = useState([])
+    const [carddatajp, setcarddatajp] = useState([])
+    const [carddata_main, setcarddata_main] = useState([])
+    const { lang, setlang } = useContext(Context)
+
+
     useEffect(() => {
-        setcarddata(Cardjson)
-        setcarddatajp(Cardjsonjp)
-    }, [])
-    function cardFunc(index){
+
+
+
+        {
+            (lang == "uz" ? setcarddatajp(Cardjson) : setcarddatajp(Cardjsonjp))
+        }
+
+
+    }, [lang])
+    function cardFunc(index) {
         // setcarddata_main(carddata[index])
         setcarddata_main(carddatajp[index])
         // console.log(carddatamain)
@@ -47,25 +57,25 @@ function Jobs() {
                             carddatajp.map((e, index) => {
                                 return (
                                     <>
-                                        <a href='#full' className='jobcard' onClick={()=>{cardFunc(index)}}>
-                                        <div>
-                                            <div className='container pt-3'>
-                                                <div className='jobcard-m1'>
-                                                    <div className='div1'>
-                                                        <h4>{e.Orientation}</h4>
+                                        <a href='#full' className='jobcard' onClick={() => { cardFunc(index) }}>
+                                            <div>
+                                                <div className='container pt-3'>
+                                                    <div className='jobcard-m1'>
+                                                        <div className='div1'>
+                                                            <h4>{e.Orientation}</h4>
+                                                        </div>
+                                                        <div className='div2'>
+                                                            <i class="bi bi-house-door"></i>
+                                                        </div>
                                                     </div>
-                                                    <div className='div2'>
-                                                        <i class="bi bi-house-door"></i>
+                                                    <h5 className='h5teg'> {e.Salary_start} - {e.Salary_end}/ {e.Salary_type}</h5>
+                                                    <p>{e.Soft_skills}</p>
+                                                    <div className='jobcard-m2'>
+                                                        <p className='jobcard-m2-text'>{e.Fulname}</p>
+                                                        <p>{e.Data}</p>
                                                     </div>
-                                                </div>
-                                                <h5 className='h5teg'> {e.Salary_start} - {e.Salary_end}/ {e.Salary_type}</h5>
-                                                <p>{e.Soft_skills}</p>
-                                                <div className='jobcard-m2'>
-                                                    <p className='jobcard-m2-text'>{e.Fulname}</p>
-                                                    <p>{e.Data}</p>
                                                 </div>
                                             </div>
-                                        </div>
                                         </a>
                                     </>
                                 )

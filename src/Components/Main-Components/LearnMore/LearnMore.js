@@ -1,16 +1,12 @@
-import React, { useEffect, useState,useContext } from 'react'
-import { Context } from '../../../useContext__comp/Provider/AuthProvider'
+import React, { useEffect, useState } from 'react'
 import "./learnmore.css"
 
 function LearnMore(props) {
   const [propsdata , setPoropsData] = useState([])
-  const{lang,setlang}=useContext(Context)
-
-  useEffect(() => {
-    {
-      (lang=="uz"?setPoropsData(props.data[0]):setPoropsData(props.data[1]))
-   }
-  }, [lang]);
+  useEffect(()=>{
+    setPoropsData(props.data[0])
+  }, [])
+  console.log(props.data);
   return (
     <div>
         <div className='container'>
@@ -27,7 +23,7 @@ function LearnMore(props) {
                 </div>
                 <div className='col-lg-6 col-md-12 col-sm-12 learn_img'>
                   <div className='card_img01'>
-                        <img className='allimg' style={{width:propsdata.width}}  src={propsdata.card_img} alt={propsdata.alt}/>
+                        <img className='allimg' src={propsdata.card_img} alt={propsdata.alt}/>
                   </div>
                 </div>
               </div>

@@ -5,7 +5,8 @@
         "bg_img": "./images/Education-img/educate_card_uzb_bg2.png",
         "card_img": "./images/Education-img/educate_card_uzb_2.png",
         "alt": "card-img",
-        "width": "100%"
+        "width": "100%",
+        "to":"/senmon"
     },
     {
         "title": "せんもん",
@@ -13,6 +14,7 @@
         "bg_img": "./images/Education-img/educate_card_uzb_bg2.png",
         "card_img": "./images/Education-img/educate_card_uzb_2.png",
         "alt": "カード画像",
-        "width": "100%"
+        "width": "100%",
+        "to":"/senmon"
     }
 ]
