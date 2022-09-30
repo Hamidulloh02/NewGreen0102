@@ -40,7 +40,7 @@ const Status = (props) => {
                         </div>
 
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12  " data-aos="zoom-in-left">
+                    <div className="col-lg-4 col-md-6 col-sm-12  " data-aos="zoom-in-right">
                         <div className="pencil_card">
                             <div className="Institutions">
                                 <h1 className='text-white text-center pt-4'>{propstata.card3}</h1>

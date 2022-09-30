@@ -29,7 +29,7 @@ const Strategic = (props) => {
                             {propstata.text2}
                         </p>
                     </div>
-                    <div className="col-lg-6 col-md-12 col-sm-12 card_img mb-5" data-aos="zoom-in-left">
+                    <div className="col-lg-6 col-md-12 col-sm-12 card_img mb-5" data-aos="zoom-in-right">
                         <img src={propstata.card_img} alt="legal" />
                     </div>
                 </div>

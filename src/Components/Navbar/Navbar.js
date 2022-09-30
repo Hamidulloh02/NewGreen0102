@@ -43,13 +43,10 @@ function CollapsibleExample() {
     }
 
 
-
-
-
   }, [lang])
   return (
-    <div>
-      <div  >
+    <div className='All_nav'>
+      <div className='Enter_nav' >
         <Topnavbar />
         <Navbar expand="lg" variant="dark" >
           <Container>
@@ -62,7 +59,7 @@ function CollapsibleExample() {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto" >
               </Nav>
-              <Nav className='minnavbar'>
+              <Nav className='minnavbar' id="responsive-navbar-nav">
                 <Nav.Link href="#deets" className='text-dark menunav'>
                   <NavDropdown
                     title={
@@ -73,19 +70,17 @@ function CollapsibleExample() {
                     onMouseLeave={() => setShow1(false)}
                     onToggle={() => setShow1()}
                   >
-                    {/* <NavDropdown.Item as={Link} to="/history" className='menuhover'>{aboutdata.history} </NavDropdown.Item> */}
-                    <NavDropdown.Item as={Link} to="/contact" className='menuhover'>{aboutdata.contact}</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/certificate" className='menuhover'>{aboutdata.certificat}</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/mission_vision" className='menuhover'>{aboutdata.missionvison}</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/contact" className='menuhover' >{aboutdata.contact}</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/certificate" className='menuhover '>{aboutdata.certificat}</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/mission_vision" className='menuhover '>{aboutdata.missionvison}</NavDropdown.Item>
                   </NavDropdown>
                 </Nav.Link>
                 <Nav.Link
                   href="#deets"
                   className='text-dark  menunav '>
                   <NavDropdown
-           
                     title={
-                      <span > <Link to="work" className="text-dark main_menu_tit"> {workdata.title} </Link> <BsChevronDown className='dropicon' /></span>
+                      <span > <Link to="work" className="text-dark main_menu_tit"> {workdata.title} <BsChevronDown className='dropicon' /></Link> </span>
                     }
                     show={show2}
                     onMouseEnter={() => setShow2(true)}
@@ -95,17 +90,14 @@ function CollapsibleExample() {
                     <NavDropdown.Item as={Link} to="/jobs" className='menuhover'>{workdata.job}</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/work_visa" className='menuhover'>{workdata.work_visa}</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/intern_visa" className='menuhover'>{workdata.intern_visa}</NavDropdown.Item>
-                    {/* <NavDropdown.Item as={Link} to="#" className='menuhover'>{workdata.register}</NavDropdown.Item> */}
                   </NavDropdown>
-
                 </Nav.Link>
                 <Nav.Link href="#deets" className='text-dark menunav'>
                   <NavDropdown
                     title={
-                      <span > <Link to="education" className="text-dark main_menu_tit"> {studydata.title}</Link> <BsChevronDown className='dropicon' /></span>
+                      <span > <Link to="education" className="text-dark main_menu_tit"> {studydata.title}<BsChevronDown className='dropicon ms-2' /></Link> </span>
                     }
                     show={show3}
-
                     onMouseEnter={() => setShow3(true)}
                     onMouseLeave={() => setShow3(false)}
                     onToggle={() => setShow3()}
@@ -126,7 +118,6 @@ function CollapsibleExample() {
                     onToggle={() => setShow()}
                   >
                     <NavDropdown.Item as={Link} to="/legal_advices" className='menuhover'>{servicedata.legal_advice}</NavDropdown.Item>
-                    {/* <NavDropdown.Item as={Link} to="#" className='menuhover'>{servicedata.visa}</NavDropdown.Item> */}
                     <NavDropdown.Item as={Link} to="/business_consalting" className='menuhover'>{servicedata.starting_business}</NavDropdown.Item>
                   </NavDropdown>
                 </Nav.Link>

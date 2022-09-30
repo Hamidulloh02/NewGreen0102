@@ -4,5 +4,11 @@
         "logo":"./images/University-offer-img/card_logo3.png",
         "title":"University of Kyoto",
         "text":"Founded upon the principles of its motto, “freedom of academic culture”, KyotoU is currently composed of three campuses with ten Faculties, eighteen Graduate Schools, thirteen Research Institutes, and twenty-two Research and Educational Centers. The Kyoto University Library, boasting over 7 million volumes, is Japan's second-largest academic library."
+    },
+    {
+        "img":"./images/University-offer-img/card_img03.png",
+        "logo":"./images/University-offer-img/card_logo3.png",
+        "title":"京都大学",
+        "text":"「学問の自由」をモットーとする京都大学は、現在、10学部、18研究科、13研究所、22研究教育センターからなる3つのキャンパスで構成されています。 700万冊以上の蔵書を誇る京都大学附属図書館は、日本で2番目に大きな学術図書館です。"
     }
 ]

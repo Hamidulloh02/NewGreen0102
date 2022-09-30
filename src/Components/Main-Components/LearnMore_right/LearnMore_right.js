@@ -1,11 +1,16 @@
-import React,{useEffect, useState} from 'react'
+import React,{useEffect, useState,useContext} from 'react'
 import "./learnmore_right.css"
+import { Context } from '../../../useContext__comp/Provider/AuthProvider'
 
 function LearnMore_right(props) {
     const [propsright, setpropsright] = useState([])
+    const{lang,setlang}=useContext(Context)
     useEffect(() => {
-      setpropsright(props.data[0])
-    })
+       setpropsright(props.data[0]) 
+      {
+        (lang == "uz" ? setpropsright(props.data[0]) : setpropsright(props.data[1]))
+      }
+    }, [lang])
   return (
     <div>
     <div className='card_right_main'>

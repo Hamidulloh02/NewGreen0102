@@ -12,6 +12,9 @@ import textjson from './Components/Intern_viza/Text.json'
 import AuthProvider from "./useContext__comp/Provider/AuthProvider";
 import { Context } from "./useContext__comp/Provider/AuthProvider";
 import Work from './Components/Work/Work'
+import Univer from "./Components/Universitet_Offer/University_offer"
+import Log_In from "./Components/Log_in/Log_In";
+import Registration from "./Components/Registration/Registration";
 
 // import Work from './Components/Work/Work'
 function App() {
@@ -35,11 +38,7 @@ function App() {
           <Footer />
         </>
       )}
-
     </AuthProvider>
-   
-  
-
     // <div>
     //   <Japan_animation/>
     // </div>

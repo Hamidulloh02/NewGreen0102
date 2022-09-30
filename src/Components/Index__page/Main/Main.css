@@ -5,6 +5,11 @@
     margin: 0;
     padding: 0;
 }
+.mainpage001{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .mainbody{
     background-attachment: fixed!important;
     background-repeat: no-repeat;

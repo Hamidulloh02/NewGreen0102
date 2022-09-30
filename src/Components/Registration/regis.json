@@ -1,0 +1,13 @@
+[
+    {
+        "title":"Registration",
+        "firstname":"Firstname *",
+        "lastname":"Lastname *",
+        "email":"Email *",
+        "password":"Password *",
+        "conf_password":"Confirm Password *",
+        "regis_btn":"Log in",
+        "link":"Already have account? Log In."
+
+    }
+]

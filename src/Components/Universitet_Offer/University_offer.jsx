@@ -11,8 +11,13 @@ import Text_json from "./text.json"
 import Cardjson from "./univer_card.json"
 import Cardjson1 from "./univer_card2.json"
 import Cardjson2 from "./univer_card3.json"
+import { useEffect } from 'react'
 
 function University_offer() {
+  useEffect(() => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  },[])
   return (
     <div>
        <Header data={Header_json}/>

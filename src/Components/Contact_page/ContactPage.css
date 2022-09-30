@@ -81,7 +81,11 @@ background-color: #6bc61072;
     color: #747579;
     font-size: 15px;
 }
-
+.contact_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .contact_card:hover{
     /* background-color: aqua; */
     transform: scale(1.03);

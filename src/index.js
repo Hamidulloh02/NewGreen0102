@@ -4,6 +4,7 @@ import App from './App';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
 import {BrowserRouter , Route , Routes} from 'react-router-dom'
+import "./index.css"
 
 import Main from './Components/Index__page/Index'
 import Contact_page from "./Components/Contact_page/Contact_page";
@@ -22,6 +23,7 @@ import School from './Components/School/School';
 import Universtet from "./Components/Unverstet/Unverstet"
 import Work_visa from "./Components/Work_viza/Work_viza"
 import Work from './Components/Work/Work';
+import University_Offer from "./Components/Universitet_Offer/University_offer"
 // import Study from ''
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -46,8 +48,8 @@ root.render(
         <Route path="/jobs2"  element={<Jobs2/>}/>
         <Route path="/legal_advices" element={<Legal_Advices/>} />
         <Route path="/business_consalting" element={<Businiss_consalting/>}/>
-        {/* <Route path="/visa" element={<Special_visa/>} />  */}
         <Route path='/school' element={<School/>}/>
+        <Route path="/university_offer" element={<University_Offer/>}/>
       </Route>
     </Routes>
     </BrowserRouter>

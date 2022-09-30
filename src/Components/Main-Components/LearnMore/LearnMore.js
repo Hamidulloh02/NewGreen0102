@@ -1,13 +1,18 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState ,useContext} from 'react'
+import { Context } from '../../../useContext__comp/Provider/AuthProvider'
 import "./learnmore.css"
 
 function LearnMore(props) {
   const [propsdata , setPoropsData] = useState([])
-  useEffect(()=>{
+  const{lang,setlang}=useContext(Context)
+  useEffect(() => {
     setPoropsData(props.data[0])
-  }, [])
+    {
+      (lang == "uz" ? setPoropsData(props.data[0]) : setPoropsData(props.data[1]))
+    }
+  }, [lang])
   console.log(props.data);
-  return (
+  return ( 
     <div>
         <div className='container'>
             <div className='learn_bg' style={{ backgroundImage: `url(${propsdata.bg_img})` }}>

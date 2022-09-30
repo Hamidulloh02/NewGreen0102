@@ -46,7 +46,7 @@ useEffect(() => {
                                 <h1 className='text-center   h1 mt-4'>{propstata.text3}</h1>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 foundation_card " data-aos="fade-up-left">
+                        <div className="col-lg-3 col-md-6 col-sm-12 foundation_card " data-aos="fade-up-right">
                             <div className="pencil_card">
                                 <div className="pencil">
                                     <img className='w-50 pencil_img  ' src={propstata.img4} alt={propstata.alt4} />

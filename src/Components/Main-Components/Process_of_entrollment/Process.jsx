@@ -50,7 +50,7 @@ const Process = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12  process_card" data-aos="zoom-in-left">
+                    <div className="col-lg-4 col-md-6 col-sm-12  process_card" data-aos="zoom-in-right">
                         <div className="row ">
                             <div className="col-lg-4 col-md-4 col-sm-12 text-center mb-3">
                                 <h2>{propstata.number3}</h2>

@@ -5,7 +5,8 @@
         "addrice":"Green Box, Japan, 〒039-2501 Aomori",
         "uz":"Uz",
         "jp":"Jp",
-        "eng":"Eng"
+        "eng":"Eng",
+        "img":"./images/Navbar-imgs/top-navbar/uzb-flag.png"
     },
     {
         "phone":" +998(99) 542 29 96",
@@ -13,6 +14,7 @@
         "addrice":"グリーンボックス、日本、〒039-2501 青森",
         "uz":"ウズ",
         "jp":"日本語",
-        "eng":"英語"
+        "eng":"英語",
+        "img":"./images/Navbar-imgs/top-navbar/jp-flag.png"
     }
 ]

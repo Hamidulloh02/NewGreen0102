@@ -24,7 +24,7 @@ function Topnavbar() {
                         <div className='numbers'>
                             <div className='nav-div_flex'>
                                 <div className=' upper'>
-                                    <img className='top-nav-icon' src='./images/Navbar-imgs/top-navbar/Calling.png' alt='call' /> {topjsondata.phone}
+                                    <img className='top-nav-icon' src='./images/Navbar-imgs/top-navbar/Calling.png' alt='call' /> <span className='top__nav__number'>{topjsondata.phone}</span> 
                                 </div>
                                 <div className='ps-3 '>
                                     <img className='imgline' src='./images/Navbar-imgs/top-navbar/line01.png' />
@@ -41,8 +41,8 @@ function Topnavbar() {
                             </div>
                         </div>
                         {/* <div><img src="./images/Navbar-imgs/top-navbar/uzb-flag.png"/></div> */}
-                        <div className='lang ms-3 upper'>
-                            <select className='sellectlang' value={lang2} onInput={(event)=>{changeLang(event)}}>
+                        <div className='lang ms-3 upper d-flex'>
+                        <img className='select_flag' src={topjsondata.img}/><select className='sellectlang' value={lang2} onInput={(event)=>{changeLang(event)}}>
                                 <option value="uz">{topjsondata.uz}</option>
                                 <option value="ja">{topjsondata.jp}</option>
                                 <option value="eng">{topjsondata.eng}</option>

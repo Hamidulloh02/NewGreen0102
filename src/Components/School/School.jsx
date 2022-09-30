@@ -19,7 +19,7 @@ const School = () => {
         <div className='School'>
         <Header data={headerjson}/>
         <Text data={textjson}/>
-        <Year data={year}/>
+        {/* <Year data={year}/> */}
         <Status data ={statusjson}/>
         <Process data={processjson}/>
         <Entrol data={entroljson}/>

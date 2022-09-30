@@ -38,7 +38,7 @@ const Year = (props) => {
                             <h1 className=' mt-4'>{propstata.year2}</h1>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12  " data-aos="zoom-out-left">
+                    <div className="col-lg-4 col-md-6 col-sm-12  " data-aos="zoom-out-right">
                         <div className="pencil_card">
                             <div className="pencil">
                                 <img className='w-50 pencil_img ' src={propstata.img3} alt={propstata.img_alt} />

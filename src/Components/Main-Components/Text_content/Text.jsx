@@ -24,7 +24,7 @@ const Text = (props) => {
                 <div className="">
                     <div className="container text ">
                         <h1  data-aos="fade-right" className='text-center text_h1 '>{propstata.name}</h1>
-                        <p data-aos="fade-left" className='text-center mt-1 pb-5'>
+                        <p data-aos="fade-right" className='text-center mt-1 pb-5'>
                             {propstata.text}
                         </p>
                     </div>

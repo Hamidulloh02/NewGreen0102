@@ -29,13 +29,13 @@ function About() {
                 
                 <div className='container'>
                     <div className='row '>
-                        <div className='col-lg-6 col-md-6 col-sm-12 p-4' data-aos = "fade-up-right">
+                        <div className='col-lg-6 col-md-6 col-sm-12 ' data-aos = "fade-up-right">
                             <div className='about_dlex'>
                                 <img src='./images/Indexpage-img/about-img.png' /> 
                             </div> 
                         </div>
-                        <div className='col-lg-6 col-md-6 col-sm-12' data-aos = "fade-left">
-                            <div className='index_page_about_text'>
+                        <div className='col-lg-6 col-md-6 col-sm-12' data-aos = "fade-right">
+                            <div className='index_page_about_text ps-5'>
                                 <p className='mt-3 about_tit'>{aboutdata.Text1} <p className='about_tit'>{aboutdata.Text2}</p> </p>
                                 <p>
                                     {aboutdata.Text3}

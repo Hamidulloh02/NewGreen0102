@@ -43,7 +43,7 @@ function Offer() {
        </div>
         <div className="container">
           <div className="row maincard">
-            <div className="col-lg-4 col-md-6 col-sm-12 p-4">
+            <div className="col-lg-4 col-md-6 col-sm-12 p-4 main__card">
               <div className="card">
                 <div className="offer_img_div">
                   <img
@@ -57,7 +57,7 @@ function Offer() {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12 p-4">
+            <div className="col-lg-4 col-md-6 col-sm-12 p-4 main__card">
               <div className="card">
                 <div className="offer_img_div">
                   <img
@@ -71,7 +71,7 @@ function Offer() {
                 </p>
               </div>
             </div>
-            <div className=" col-lg-4 col-md-6 col-sm-12 p-4">
+            <div className=" col-lg-4 col-md-6 col-sm-12 p-4 main__card">
               <div className="card">
                 <div className="offer_img_div">
                   <img
@@ -85,7 +85,7 @@ function Offer() {
                 </p>
               </div>
             </div>
-            <div className=" col-lg-4 col-md-6 col-sm-12 p-4">
+            <div className=" col-lg-4 col-md-6 col-sm-12 p-4 main__card">
               <div className="card">
                 <div className="offer_img_div">
                   <img
@@ -99,7 +99,7 @@ function Offer() {
                 </p>
               </div>
             </div>
-            <div className=" col-lg-4 col-md-6 col-sm-12 p-4">
+            <div className=" col-lg-4 col-md-6 col-sm-12 p-4 main__card">
               <div className="card">
                 <div className="offer_img_div">
                   <img

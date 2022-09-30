@@ -1,0 +1,9 @@
+[
+    {
+        "title":"Log In",
+        "label1":"Name*",
+        "label2":"Password*",
+        "btn_text":"Log in",
+        "link":"Create new accaunt"
+    }
+]

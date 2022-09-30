@@ -2,5 +2,9 @@
     {
         "bg_img":"./images/University-offer-img/main_bg.png",
          "text1":"Choose From Top Universities in Japan"
+    },
+    {
+        "bg_img":"./images/University-offer-img/main_bg.png",
+         "text1":"日本のトップ大学から選ぶ"
     }
 ]

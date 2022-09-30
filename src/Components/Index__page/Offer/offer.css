@@ -10,6 +10,11 @@
 .offermenu{
     text-align: center;
 }
+.main__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .offertext{
     text-align: center;
     width: 60%;
