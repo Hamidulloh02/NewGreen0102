@@ -11,10 +11,7 @@ function Jobs() {
     const [carddata_main, setcarddata_main] = useState([])
     const { lang, setlang } = useContext(Context)
 
-
     useEffect(() => {
-
-
 
         {
             (lang == "uz" ? setcarddatajp(Cardjson) : setcarddatajp(Cardjsonjp))

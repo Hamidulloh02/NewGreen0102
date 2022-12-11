@@ -7,13 +7,13 @@
         "btn2text":"Apply Now",
         "cardimg":"./images/Indexpage-img/Main-img.png",
         "bg_img":"./images/Indexpage-img/bg_1.png"
-    },{
+    },{ 
         "text1":"일본에서 일하다",
         "text2":"학업 및 비자 서비스",
         "text3":"Lorem Ipsum은 단순히 인쇄 및 조판 산업의 더미 텍스트입니다. Lorem Ipsum은 1500년대부터 알려지지 않은 프린터가 조리실을 가져간 이후로 업계의 표준 더미 텍스트였습니다.",
         "btn1text":"공석",
         "btn2text":"지금 신청",
         "cardimg":"./images/Indexpage-img/Main-img.png",
-        "bg_img":"./images/Indexpage-img/homebg_jp.png"  
+        "bg_img":"https://media.istockphoto.com/id/841378620/photo/bird-eye-aerial-view-under-sunrise-and-morning-blue-bright-sky-in-osaka-japan-mix-hand-drawn.jpg?s=612x612&w=0&k=20&c=x9o_9aa2y7UMyPUWrLWCUY9nrb8RN8i7rNGvf86MHic="  
     }
 ]

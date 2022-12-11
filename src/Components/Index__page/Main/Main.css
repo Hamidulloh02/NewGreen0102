@@ -1,6 +1,4 @@
-/* *{
-    font-family: 'Times New Roman', Times, serif;
-} */
+
 *{
     margin: 0;
     padding: 0;
@@ -56,13 +54,4 @@
     border: 2px solid #006433;
     transition: 0.7s;
 }
-/* .my-card{
-    width: 100vw;
-    height: 100vh;
-} */
-/* media style */
-/* @media(max-width:1000px){
-.mainbody{
-    height: 100%;
-}
-} */
+

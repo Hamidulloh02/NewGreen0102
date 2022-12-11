@@ -25,7 +25,7 @@ export default function MisVis() {
       <div className="Img_text" style={{ backgroundImage: `url(${missdataJson.bgMV})` }}>
         <div className="container ">
           <div className="row ">
-            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 my-3 my-4 d-flex align-items-center" data-aos="fade-up-right">
+            {/* <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 my-3 my-4 d-flex align-items-center" data-aos="fade-up-right">
               <div className="mx-5">
                 <h2 className="my-3 text-dark">{missdataJson.miss}</h2>
                 <p>
@@ -40,7 +40,7 @@ export default function MisVis() {
             </div>
             <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 my-3 my-4" data-aos="fade-up-left">
               <img width='100%' src="./images/CertiImg/iStock.png" alt="hacc" />
-            </div>
+            </div> */}
             <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 my-3" data-aos="fade-up-right">
               <img width='100%' src="./images/CertiImg/zina_bola.png" alt="hacc" />
             </div>

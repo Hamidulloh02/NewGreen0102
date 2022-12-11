@@ -1,16 +1,14 @@
 [
     {
         "bg_img": "./images/Busniss_consalting/bg_2.png",
-        "title": "Strategic growth support  from an executive with  experience.",
+        "title": "Establishing a company ",
         "card_img": "./images/Busniss_consalting/card_1.png",
-        "text1": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors.",
-        "text2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+        "text1": "Want to set up a company in Japan but don't know the procedure?The consulting staff at Green Box will be happy to help you with any problems you may have.Green Box can save you time and money.Please feel free to contact us."
     },
     {
         "bg_img": "./images/Busniss_consalting/grown_japan.png",
-        "title": "経験豊富なエグゼクティブによる戦略的成長支援。",
+        "title": "会社設立",
         "card_img": "./images/Busniss_consalting/card_1.png",
-        "text1": " を使用するポイントは、「ここにコンテンツ、ここにコンテンツ」を使用するのとは対照的に、文字が多かれ少なかれ正規分布しているため、読みやすい英語のように見えることです。多くのデスクトップ パブリッシング パッケージと Web ページ エディター。",
-        "text2": "のパッセージには多くのバリエーションがありますが、大部分は、注入されたユーモア、または少しでも信じられないように見える無作為化された言葉によって、何らかの形で変更されています。"
+        "text1": "日本で会社設立をしたいけど手続きが分からない方グリーンボックスのコンシェルジュ担当が皆様のお悩み事に相談に乗っていきます。グリーンボックスでお時間とお金の節約が出来ます。お気軽にご連絡ください。"
     }
 ]
